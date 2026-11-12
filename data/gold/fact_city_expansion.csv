@@ -1,0 +1,5 @@
+fact_key,city_key,date_key,nb_douglas,nb_ici_paris_xl,nb_bijenkorf,nb_concurrents_total,concurrents_pour_100k_hab,pop_15_45_par_concurrent,part_15_45_pct,distance_hub_saran_km,market_size_nl_eur,logistics_cost_eur,net_profit_projection_eur
+1,1,20261112,9,6,1,16,1.7,29651,50.4,626,,,
+2,2,20261112,5,5,1,11,1.63,27772,45.3,563,,,
+3,3,20261112,3,3,1,7,1.85,28071,52.0,594,,,
+4,4,20261112,4,5,1,10,1.76,24548,43.1,592,,,
