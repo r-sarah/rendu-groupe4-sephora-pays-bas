@@ -41,7 +41,9 @@ python enrich_products.py products_prices.csv products_prices.csv
 
 ## Contrôle
 
-Les étapes 2 et 3, appliquées à `bestsellers_maquillage.csv`, reproduisent exactement `data/raw/products_prices.csv`.
+Texte brut de la page conservé dans `data/raw/sephora_bestsellers_maquillage_168.txt`.
+
+Les trois étapes, appliquées à ce texte brut, reproduisent exactement `data/raw/bestsellers_maquillage.csv` puis `data/raw/products_prices.csv`.
 
 ## Limites
 
