@@ -1,55 +1,425 @@
-"Time","sephora","HUDA BEAUTY","Rare Beauty","Fenty Beauty","Kylie Cosmetics","rhode","Haus Labs","makeup by mario"
-"2025-10-26",39,17,7,4,0,22,3,3
-"2025-11-02",47,31,10,6,0,24,3,2
-"2025-11-09",48,35,10,5,2,28,2,3
-"2025-11-16",46,48,11,4,2,24,2,4
-"2025-11-23",60,49,11,7,3,28,4,4
-"2025-11-30",48,24,12,7,2,18,3,4
-"2025-12-07",47,19,9,7,2,20,3,3
-"2025-12-14",47,17,10,5,0,19,2,4
-"2025-12-21",48,19,8,5,3,20,0,3
-"2025-12-28",45,16,8,12,0,19,3,4
-"2026-01-04",28,21,8,10,0,12,2,4
-"2026-01-11",30,21,7,14,2,16,2,3
-"2026-01-18",35,16,9,10,0,17,0,2
-"2026-01-25",35,27,9,7,2,20,0,3
-"2026-02-01",33,18,8,6,2,20,2,3
-"2026-02-08",32,15,8,4,2,19,2,2
-"2026-02-15",32,11,8,5,0,17,2,2
-"2026-02-22",33,13,9,5,0,20,2,3
-"2026-03-01",30,15,8,4,0,20,3,3
-"2026-03-08",29,14,6,4,2,20,2,3
-"2026-03-15",33,15,8,5,0,18,2,4
-"2026-03-22",39,13,8,6,0,20,2,3
-"2026-03-29",40,13,9,7,0,16,2,4
-"2026-04-05",40,15,6,7,2,19,2,4
-"2026-04-12",45,13,11,5,2,33,3,3
-"2026-04-19",54,14,17,7,0,36,3,4
-"2026-04-26",48,13,12,6,2,26,2,2
-"2026-05-03",34,14,9,5,2,25,2,3
-"2026-05-10",38,17,10,6,2,28,3,5
-"2026-05-17",40,14,9,6,1,20,3,3
-"2026-05-24",40,14,8,4,1,17,2,3
-"2026-05-31",43,14,7,5,1,32,2,3
-"2026-06-07",51,18,7,5,2,51,3,4
-"2026-06-14",47,15,8,4,2,28,3,3
-"2026-06-21",55,12,8,4,0,23,2,3
-"2026-06-28",88,15,12,4,0,27,4,4
-"2026-07-05",97,13,16,4,1,28,3,4
-"2026-07-12",56,13,10,6,2,21,2,2
-"2026-07-19",65,13,11,4,0,22,2,3
-"2026-07-26",60,12,11,4,0,21,2,2
-"2026-08-02",67,13,12,6,0,27,2,5
-"2026-08-09",86,20,26,9,2,24,3,7
-"2026-08-16",75,30,54,21,3,22,3,11
-"2026-08-23",71,26,44,21,4,20,2,9
-"2026-08-30",100,37,53,43,4,19,7,14
-"2026-09-06",78,28,40,34,3,28,7,9
-"2026-09-13",58,15,14,13,0,24,3,4
-"2026-09-20",73,18,19,20,2,22,3,6
-"2026-09-27",57,17,15,15,2,35,3,4
-"2026-10-04",42,12,10,6,0,31,2,2
-"2026-10-11",46,16,10,6,2,33,3,3
-"2026-10-18",47,20,12,7,4,30,3,3
-"2026-10-25",45,25,16,11,3,33,3,3
-"2026-11-01",47,22,10,7,3,35,3,4
+semaine,marque,score_trends
+2025-11-02,Fenty Beauty,6
+2025-11-02,Haus Labs,3
+2025-11-02,Huda Beauty,31
+2025-11-02,Kylie Cosmetics,0
+2025-11-02,Makeup By Mario,2
+2025-11-02,Rare Beauty,10
+2025-11-02,Rhode,24
+2025-11-02,Sephora,47
+2025-11-09,Fenty Beauty,5
+2025-11-09,Haus Labs,2
+2025-11-09,Huda Beauty,35
+2025-11-09,Kylie Cosmetics,2
+2025-11-09,Makeup By Mario,3
+2025-11-09,Rare Beauty,10
+2025-11-09,Rhode,28
+2025-11-09,Sephora,48
+2025-11-16,Fenty Beauty,4
+2025-11-16,Haus Labs,2
+2025-11-16,Huda Beauty,48
+2025-11-16,Kylie Cosmetics,2
+2025-11-16,Makeup By Mario,4
+2025-11-16,Rare Beauty,11
+2025-11-16,Rhode,24
+2025-11-16,Sephora,46
+2025-11-23,Fenty Beauty,7
+2025-11-23,Haus Labs,4
+2025-11-23,Huda Beauty,49
+2025-11-23,Kylie Cosmetics,3
+2025-11-23,Makeup By Mario,4
+2025-11-23,Rare Beauty,11
+2025-11-23,Rhode,28
+2025-11-23,Sephora,60
+2025-11-30,Fenty Beauty,7
+2025-11-30,Haus Labs,3
+2025-11-30,Huda Beauty,24
+2025-11-30,Kylie Cosmetics,2
+2025-11-30,Makeup By Mario,4
+2025-11-30,Rare Beauty,12
+2025-11-30,Rhode,18
+2025-11-30,Sephora,48
+2025-12-07,Fenty Beauty,7
+2025-12-07,Haus Labs,3
+2025-12-07,Huda Beauty,19
+2025-12-07,Kylie Cosmetics,2
+2025-12-07,Makeup By Mario,3
+2025-12-07,Rare Beauty,9
+2025-12-07,Rhode,20
+2025-12-07,Sephora,47
+2025-12-14,Fenty Beauty,5
+2025-12-14,Haus Labs,2
+2025-12-14,Huda Beauty,17
+2025-12-14,Kylie Cosmetics,0
+2025-12-14,Makeup By Mario,4
+2025-12-14,Rare Beauty,10
+2025-12-14,Rhode,19
+2025-12-14,Sephora,47
+2025-12-21,Fenty Beauty,5
+2025-12-21,Haus Labs,0
+2025-12-21,Huda Beauty,19
+2025-12-21,Kylie Cosmetics,3
+2025-12-21,Makeup By Mario,3
+2025-12-21,Rare Beauty,8
+2025-12-21,Rhode,20
+2025-12-21,Sephora,48
+2025-12-28,Fenty Beauty,12
+2025-12-28,Haus Labs,3
+2025-12-28,Huda Beauty,16
+2025-12-28,Kylie Cosmetics,0
+2025-12-28,Makeup By Mario,4
+2025-12-28,Rare Beauty,8
+2025-12-28,Rhode,19
+2025-12-28,Sephora,45
+2026-01-04,Fenty Beauty,10
+2026-01-04,Haus Labs,2
+2026-01-04,Huda Beauty,21
+2026-01-04,Kylie Cosmetics,0
+2026-01-04,Makeup By Mario,4
+2026-01-04,Rare Beauty,8
+2026-01-04,Rhode,12
+2026-01-04,Sephora,28
+2026-01-11,Fenty Beauty,14
+2026-01-11,Haus Labs,2
+2026-01-11,Huda Beauty,21
+2026-01-11,Kylie Cosmetics,2
+2026-01-11,Makeup By Mario,3
+2026-01-11,Rare Beauty,7
+2026-01-11,Rhode,16
+2026-01-11,Sephora,30
+2026-01-18,Fenty Beauty,10
+2026-01-18,Haus Labs,0
+2026-01-18,Huda Beauty,16
+2026-01-18,Kylie Cosmetics,0
+2026-01-18,Makeup By Mario,2
+2026-01-18,Rare Beauty,9
+2026-01-18,Rhode,17
+2026-01-18,Sephora,35
+2026-01-25,Fenty Beauty,7
+2026-01-25,Haus Labs,0
+2026-01-25,Huda Beauty,27
+2026-01-25,Kylie Cosmetics,2
+2026-01-25,Makeup By Mario,3
+2026-01-25,Rare Beauty,9
+2026-01-25,Rhode,20
+2026-01-25,Sephora,35
+2026-02-01,Fenty Beauty,6
+2026-02-01,Haus Labs,2
+2026-02-01,Huda Beauty,18
+2026-02-01,Kylie Cosmetics,2
+2026-02-01,Makeup By Mario,3
+2026-02-01,Rare Beauty,8
+2026-02-01,Rhode,20
+2026-02-01,Sephora,33
+2026-02-08,Fenty Beauty,4
+2026-02-08,Haus Labs,2
+2026-02-08,Huda Beauty,15
+2026-02-08,Kylie Cosmetics,2
+2026-02-08,Makeup By Mario,2
+2026-02-08,Rare Beauty,8
+2026-02-08,Rhode,19
+2026-02-08,Sephora,32
+2026-02-15,Fenty Beauty,5
+2026-02-15,Haus Labs,2
+2026-02-15,Huda Beauty,11
+2026-02-15,Kylie Cosmetics,0
+2026-02-15,Makeup By Mario,2
+2026-02-15,Rare Beauty,8
+2026-02-15,Rhode,17
+2026-02-15,Sephora,32
+2026-02-22,Fenty Beauty,5
+2026-02-22,Haus Labs,2
+2026-02-22,Huda Beauty,13
+2026-02-22,Kylie Cosmetics,0
+2026-02-22,Makeup By Mario,3
+2026-02-22,Rare Beauty,9
+2026-02-22,Rhode,20
+2026-02-22,Sephora,33
+2026-03-01,Fenty Beauty,4
+2026-03-01,Haus Labs,3
+2026-03-01,Huda Beauty,15
+2026-03-01,Kylie Cosmetics,0
+2026-03-01,Makeup By Mario,3
+2026-03-01,Rare Beauty,8
+2026-03-01,Rhode,20
+2026-03-01,Sephora,30
+2026-03-08,Fenty Beauty,4
+2026-03-08,Haus Labs,2
+2026-03-08,Huda Beauty,14
+2026-03-08,Kylie Cosmetics,2
+2026-03-08,Makeup By Mario,3
+2026-03-08,Rare Beauty,6
+2026-03-08,Rhode,20
+2026-03-08,Sephora,29
+2026-03-15,Fenty Beauty,5
+2026-03-15,Haus Labs,2
+2026-03-15,Huda Beauty,15
+2026-03-15,Kylie Cosmetics,0
+2026-03-15,Makeup By Mario,4
+2026-03-15,Rare Beauty,8
+2026-03-15,Rhode,18
+2026-03-15,Sephora,33
+2026-03-22,Fenty Beauty,6
+2026-03-22,Haus Labs,2
+2026-03-22,Huda Beauty,13
+2026-03-22,Kylie Cosmetics,0
+2026-03-22,Makeup By Mario,3
+2026-03-22,Rare Beauty,8
+2026-03-22,Rhode,20
+2026-03-22,Sephora,39
+2026-03-29,Fenty Beauty,7
+2026-03-29,Haus Labs,2
+2026-03-29,Huda Beauty,13
+2026-03-29,Kylie Cosmetics,0
+2026-03-29,Makeup By Mario,4
+2026-03-29,Rare Beauty,9
+2026-03-29,Rhode,16
+2026-03-29,Sephora,40
+2026-04-05,Fenty Beauty,7
+2026-04-05,Haus Labs,2
+2026-04-05,Huda Beauty,15
+2026-04-05,Kylie Cosmetics,2
+2026-04-05,Makeup By Mario,4
+2026-04-05,Rare Beauty,6
+2026-04-05,Rhode,19
+2026-04-05,Sephora,40
+2026-04-12,Fenty Beauty,5
+2026-04-12,Haus Labs,3
+2026-04-12,Huda Beauty,13
+2026-04-12,Kylie Cosmetics,2
+2026-04-12,Makeup By Mario,3
+2026-04-12,Rare Beauty,11
+2026-04-12,Rhode,33
+2026-04-12,Sephora,45
+2026-04-19,Fenty Beauty,7
+2026-04-19,Haus Labs,3
+2026-04-19,Huda Beauty,14
+2026-04-19,Kylie Cosmetics,0
+2026-04-19,Makeup By Mario,4
+2026-04-19,Rare Beauty,17
+2026-04-19,Rhode,36
+2026-04-19,Sephora,54
+2026-04-26,Fenty Beauty,6
+2026-04-26,Haus Labs,2
+2026-04-26,Huda Beauty,13
+2026-04-26,Kylie Cosmetics,2
+2026-04-26,Makeup By Mario,2
+2026-04-26,Rare Beauty,12
+2026-04-26,Rhode,26
+2026-04-26,Sephora,48
+2026-05-03,Fenty Beauty,5
+2026-05-03,Haus Labs,2
+2026-05-03,Huda Beauty,14
+2026-05-03,Kylie Cosmetics,2
+2026-05-03,Makeup By Mario,3
+2026-05-03,Rare Beauty,9
+2026-05-03,Rhode,25
+2026-05-03,Sephora,34
+2026-05-10,Fenty Beauty,6
+2026-05-10,Haus Labs,3
+2026-05-10,Huda Beauty,17
+2026-05-10,Kylie Cosmetics,2
+2026-05-10,Makeup By Mario,5
+2026-05-10,Rare Beauty,10
+2026-05-10,Rhode,28
+2026-05-10,Sephora,38
+2026-05-17,Fenty Beauty,6
+2026-05-17,Haus Labs,3
+2026-05-17,Huda Beauty,14
+2026-05-17,Kylie Cosmetics,1
+2026-05-17,Makeup By Mario,3
+2026-05-17,Rare Beauty,9
+2026-05-17,Rhode,20
+2026-05-17,Sephora,40
+2026-05-24,Fenty Beauty,4
+2026-05-24,Haus Labs,2
+2026-05-24,Huda Beauty,14
+2026-05-24,Kylie Cosmetics,1
+2026-05-24,Makeup By Mario,3
+2026-05-24,Rare Beauty,8
+2026-05-24,Rhode,17
+2026-05-24,Sephora,40
+2026-05-31,Fenty Beauty,5
+2026-05-31,Haus Labs,2
+2026-05-31,Huda Beauty,14
+2026-05-31,Kylie Cosmetics,1
+2026-05-31,Makeup By Mario,3
+2026-05-31,Rare Beauty,7
+2026-05-31,Rhode,32
+2026-05-31,Sephora,43
+2026-06-07,Fenty Beauty,5
+2026-06-07,Haus Labs,3
+2026-06-07,Huda Beauty,18
+2026-06-07,Kylie Cosmetics,2
+2026-06-07,Makeup By Mario,4
+2026-06-07,Rare Beauty,7
+2026-06-07,Rhode,51
+2026-06-07,Sephora,51
+2026-06-14,Fenty Beauty,4
+2026-06-14,Haus Labs,3
+2026-06-14,Huda Beauty,15
+2026-06-14,Kylie Cosmetics,2
+2026-06-14,Makeup By Mario,3
+2026-06-14,Rare Beauty,8
+2026-06-14,Rhode,28
+2026-06-14,Sephora,47
+2026-06-21,Fenty Beauty,4
+2026-06-21,Haus Labs,2
+2026-06-21,Huda Beauty,12
+2026-06-21,Kylie Cosmetics,0
+2026-06-21,Makeup By Mario,3
+2026-06-21,Rare Beauty,8
+2026-06-21,Rhode,23
+2026-06-21,Sephora,55
+2026-06-28,Fenty Beauty,4
+2026-06-28,Haus Labs,4
+2026-06-28,Huda Beauty,15
+2026-06-28,Kylie Cosmetics,0
+2026-06-28,Makeup By Mario,4
+2026-06-28,Rare Beauty,12
+2026-06-28,Rhode,27
+2026-06-28,Sephora,88
+2026-07-05,Fenty Beauty,4
+2026-07-05,Haus Labs,3
+2026-07-05,Huda Beauty,13
+2026-07-05,Kylie Cosmetics,1
+2026-07-05,Makeup By Mario,4
+2026-07-05,Rare Beauty,16
+2026-07-05,Rhode,28
+2026-07-05,Sephora,97
+2026-07-12,Fenty Beauty,6
+2026-07-12,Haus Labs,2
+2026-07-12,Huda Beauty,13
+2026-07-12,Kylie Cosmetics,2
+2026-07-12,Makeup By Mario,2
+2026-07-12,Rare Beauty,10
+2026-07-12,Rhode,21
+2026-07-12,Sephora,56
+2026-07-19,Fenty Beauty,4
+2026-07-19,Haus Labs,2
+2026-07-19,Huda Beauty,13
+2026-07-19,Kylie Cosmetics,0
+2026-07-19,Makeup By Mario,3
+2026-07-19,Rare Beauty,11
+2026-07-19,Rhode,22
+2026-07-19,Sephora,65
+2026-07-26,Fenty Beauty,4
+2026-07-26,Haus Labs,2
+2026-07-26,Huda Beauty,12
+2026-07-26,Kylie Cosmetics,0
+2026-07-26,Makeup By Mario,2
+2026-07-26,Rare Beauty,11
+2026-07-26,Rhode,21
+2026-07-26,Sephora,60
+2026-08-02,Fenty Beauty,6
+2026-08-02,Haus Labs,2
+2026-08-02,Huda Beauty,13
+2026-08-02,Kylie Cosmetics,0
+2026-08-02,Makeup By Mario,5
+2026-08-02,Rare Beauty,12
+2026-08-02,Rhode,27
+2026-08-02,Sephora,67
+2026-08-09,Fenty Beauty,9
+2026-08-09,Haus Labs,3
+2026-08-09,Huda Beauty,20
+2026-08-09,Kylie Cosmetics,2
+2026-08-09,Makeup By Mario,7
+2026-08-09,Rare Beauty,26
+2026-08-09,Rhode,24
+2026-08-09,Sephora,86
+2026-08-16,Fenty Beauty,21
+2026-08-16,Haus Labs,3
+2026-08-16,Huda Beauty,30
+2026-08-16,Kylie Cosmetics,3
+2026-08-16,Makeup By Mario,11
+2026-08-16,Rare Beauty,54
+2026-08-16,Rhode,22
+2026-08-16,Sephora,75
+2026-08-23,Fenty Beauty,21
+2026-08-23,Haus Labs,2
+2026-08-23,Huda Beauty,26
+2026-08-23,Kylie Cosmetics,4
+2026-08-23,Makeup By Mario,9
+2026-08-23,Rare Beauty,44
+2026-08-23,Rhode,20
+2026-08-23,Sephora,71
+2026-08-30,Fenty Beauty,43
+2026-08-30,Haus Labs,7
+2026-08-30,Huda Beauty,37
+2026-08-30,Kylie Cosmetics,4
+2026-08-30,Makeup By Mario,14
+2026-08-30,Rare Beauty,53
+2026-08-30,Rhode,19
+2026-08-30,Sephora,100
+2026-09-06,Fenty Beauty,34
+2026-09-06,Haus Labs,7
+2026-09-06,Huda Beauty,28
+2026-09-06,Kylie Cosmetics,3
+2026-09-06,Makeup By Mario,9
+2026-09-06,Rare Beauty,40
+2026-09-06,Rhode,28
+2026-09-06,Sephora,78
+2026-09-13,Fenty Beauty,13
+2026-09-13,Haus Labs,3
+2026-09-13,Huda Beauty,15
+2026-09-13,Kylie Cosmetics,0
+2026-09-13,Makeup By Mario,4
+2026-09-13,Rare Beauty,14
+2026-09-13,Rhode,24
+2026-09-13,Sephora,58
+2026-09-20,Fenty Beauty,20
+2026-09-20,Haus Labs,3
+2026-09-20,Huda Beauty,18
+2026-09-20,Kylie Cosmetics,2
+2026-09-20,Makeup By Mario,6
+2026-09-20,Rare Beauty,19
+2026-09-20,Rhode,22
+2026-09-20,Sephora,73
+2026-09-27,Fenty Beauty,15
+2026-09-27,Haus Labs,3
+2026-09-27,Huda Beauty,17
+2026-09-27,Kylie Cosmetics,2
+2026-09-27,Makeup By Mario,4
+2026-09-27,Rare Beauty,15
+2026-09-27,Rhode,35
+2026-09-27,Sephora,57
+2026-10-04,Fenty Beauty,6
+2026-10-04,Haus Labs,2
+2026-10-04,Huda Beauty,12
+2026-10-04,Kylie Cosmetics,0
+2026-10-04,Makeup By Mario,2
+2026-10-04,Rare Beauty,10
+2026-10-04,Rhode,31
+2026-10-04,Sephora,42
+2026-10-11,Fenty Beauty,6
+2026-10-11,Haus Labs,3
+2026-10-11,Huda Beauty,16
+2026-10-11,Kylie Cosmetics,2
+2026-10-11,Makeup By Mario,3
+2026-10-11,Rare Beauty,10
+2026-10-11,Rhode,33
+2026-10-11,Sephora,46
+2026-10-18,Fenty Beauty,7
+2026-10-18,Haus Labs,3
+2026-10-18,Huda Beauty,20
+2026-10-18,Kylie Cosmetics,4
+2026-10-18,Makeup By Mario,3
+2026-10-18,Rare Beauty,12
+2026-10-18,Rhode,30
+2026-10-18,Sephora,47
+2026-10-25,Fenty Beauty,11
+2026-10-25,Haus Labs,3
+2026-10-25,Huda Beauty,25
+2026-10-25,Kylie Cosmetics,3
+2026-10-25,Makeup By Mario,3
+2026-10-25,Rare Beauty,16
+2026-10-25,Rhode,33
+2026-10-25,Sephora,45
+2026-11-01,Fenty Beauty,7
+2026-11-01,Haus Labs,3
+2026-11-01,Huda Beauty,22
+2026-11-01,Kylie Cosmetics,3
+2026-11-01,Makeup By Mario,4
+2026-11-01,Rare Beauty,10
+2026-11-01,Rhode,35
+2026-11-01,Sephora,47

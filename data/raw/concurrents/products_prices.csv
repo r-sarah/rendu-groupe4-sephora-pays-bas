@@ -1,0 +1,32 @@
+product_id,product_name,brand,subcategory,product_type,variant,rank_sephora_fr,is_lvmh,price_sephora_fr_ttc,rating_sephora_fr,review_count_sephora_fr,price_douglas_nl_ttc,price_iciparisxl_nl_ttc,is_verified_exclusive,collected_at,comment
+P01,8HR Colorful Lip Liner,Sephora Collection,Lèvres,Crayon à lèvres sans transfert,,7,1,10.99,4.6,2907,,,1,2026-11-12,
+P02,Gloss Bomb Stix,Fenty Beauty,Lèvres,Gloss en stick haute brillance,,35,1,27.00,4.6,818,25.00,,0,2026-11-12,
+P03,Cream Lip Stain,Sephora Collection,Lèvres,Rouge Velouté Sans Transfert - Rouge À Lèvres Liquide Mat,,39,1,13.99,4.2,1676,,,1,2026-11-12,
+P05,Lip Contour 2.0,Huda Beauty,Lèvres,Crayon à lèvres automatique mat,,44,0,24.00,4.7,2343,,23.00,0,2026-11-12,
+P06,Faux Filler,Huda Beauty,Lèvres,Gloss haute brilliance,,46,0,25.00,4.5,2408,,23.00,0,2026-11-12,
+P07,Lip Contour Lip Stain,Huda Beauty,Lèvres,Crayon à lèvres,,55,0,26.00,4.1,1959,,25.00,0,2026-11-12,
+P08,Gloss Bomb Universal Lip Luminizer,Fenty Beauty,Lèvres,Gloss à lèvres au beurre de karité,,63,1,25.00,4.6,14695,24.00,,0,2026-11-12,
+P09,Gloss Balm,Sephora Collection,Lèvres,Baume à lèvres teinté brillance rebondie,,70,1,9.99,4.7,623,,,1,2026-11-12,
+P10,Lip Tint Felt Liner,Sephora Collection,Lèvres,Encre à lèvres feutre sans transfert,,92,1,12.99,4.0,1034,,,1,2026-11-12,
+P11,Easy Bake Loose Baking & Setting Powder,Huda Beauty,Teint,Poudre Libre,,1,0,39.90,4.7,13398,,39.90,0,2026-11-12,
+P12,Chocolate Soleil Stick Crémeux,Too Faced,Teint,Stick Bronzant et Sculptant,,2,0,34.00,4.8,3129,33.50,,0,2026-11-12,
+P13,#FauxFilter Luminous Matte Liquid Concealer,Huda Beauty,Teint,Anticernes liquide,,3,0,32.00,4.6,9647,,31.00,0,2026-11-12,
+P14,HD Skin Face Essentials,Make Up For Ever,Teint,Palette teint,"H1 (26,5 g)",5,1,84.00,4.5,916,,,1,2026-11-12,
+P15,Soft Pinch,Rare Beauty,Teint,Blush liquide,,6,0,29.00,4.6,8711,28.00,,0,2026-11-12,"Douglas : Soft Pinch Liquid Blush (prix 28 EUR, aussi pour la version Matte Liquid 7,5 ml)"
+P16,Chocolate Soleil Bronzer,Too Faced,Teint,Poudre Bronzante Floutante Fini Mat,,8,0,39.90,4.8,298,39.50,,0,2026-11-12,
+P17,SoftSculpt Sérum Bronzant,Makeup By Mario,Teint,Sérum Bronzant & Sculptant,,9,0,39.90,4.6,1274,,,1,2026-11-12,
+P18,Born This Way Super Coverage Multi-Use Concealer,Too Faced,Teint,Anti-cernes,,13,0,37.50,4.3,2825,37.00,,0,2026-11-12,
+P19,Cloud Crush,Too Faced,Teint,Blush en Poudre,,14,0,36.00,4.7,1444,35.50,,0,2026-11-12,
+P20,Shape Tape,Tarte,Teint,Anticernes mat haute couvrance,,17,0,29.90,4.4,2125,,,1,2026-11-12,
+P21,Size Up,Sephora Collection,Yeux,Mascara Volume Extra Large Immédiat,,10,1,14.99,4.3,4301,,,1,2026-11-12,
+P22,12H Colorful Crayon Yeux,Sephora Collection,Yeux,Crayon yeux rétractable Waterproof,,11,1,12.99,4.6,999,,,1,2026-11-12,
+P23,Master Mattes Long-Wear Cream Eyeshadow,Makeup By Mario,Yeux,Fard à paupières crème,,16,0,29.00,4.5,518,,,1,2026-11-12,
+P24,Special Effects Glitter Shadow,Sephora Collection,Yeux,Fard à paupières liquide pailleté,,27,1,15.99,4.6,394,,,1,2026-11-12,
+P25,Master Mattes Eyeshadow Palette: The Neutrals,Makeup By Mario,Yeux,Palette de fards à paupières,,32,0,59.00,4.4,919,,,1,2026-11-12,
+P26,Hella Thicc Volumizing Mascara,Fenty Beauty,Yeux,Mascara volumateur,,34,1,13.00,4.2,3158,11.90,,0,2026-11-12,"Prix du format mini 6,5 ml, teinte Cuz I'm Black (prix 'à partir de' sur la page) | Douglas : même mini 6,5 ml"
+P27,Ethereal Eyes Eyeshadow Palette: The Original,Makeup By Mario,Yeux,Palette yeux,,36,0,79.00,4.8,759,,,1,2026-11-12,
+P28,BADgal BANG!,Benefit Cosmetics,Yeux,Mascara Volume Intense,,41,1,32.00,4.0,9221,31.00,,0,2026-11-12,
+P29,Crayon Contour Yeux 12H,Sephora Collection,Yeux,Waterproof crayon yeux,,48,1,11.99,4.2,3445,,,1,2026-11-12,
+P30,Master Mattes Eyeshadow Palette,Makeup By Mario,Yeux,Palette de fards à paupières,,49,0,59.00,4.5,2126,,,1,2026-11-12,
+P31,Peptide Lip Tint,Rhode,Lèvres,Soin des lèvres teinté effet glazed,,,0,26.00,4.0,3100,,,1,2026-11-12,"Ajout hors échantillon top 10 : marque tendance (Rhode), choisie pour son potentiel auprès des jeunes clientes NL | Absent d'ICI Paris XL ; Douglas à vérifier (site bloqué lors du relevé)"
+P32,Pocket Blush,Rhode,Teint,Blush crème hydratant modulable,,,0,33.00,4.1,2100,,,1,2026-11-12,"Ajout hors échantillon top 10 : marque tendance (Rhode), choisie pour son potentiel auprès des jeunes clientes NL | Absent d'ICI Paris XL ; Douglas à vérifier (site bloqué lors du relevé)"
