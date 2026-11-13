@@ -8,21 +8,20 @@ Un seul fichier pour tout le traitement de la donnée, en architecture médaillo
      |
      |  ÉTAPE 1 - NETTOYAGE (couche Silver)            -> nettoyer_silver()
      v
-  Silver  data/silver/                   13 tables nettoyées + 21 contrôles
+  Silver  data/silver/                   9 tables nettoyées + contrôles
      |
      |  ÉTAPE 2 - MODÈLE EN ÉTOILE / CONSTELLATION     -> construire_gold()
      v
-  Gold    data/gold/                     8 dimensions, 10 tables de faits,
-          data/gold/vues/                8 vues à plat (dont les KPI) + 50 contrôles
+  Gold    data/gold/                     7 dimensions, 8 tables de faits,
+          data/gold/vues/                8 vues à plat (dont les KPI) + contrôles
 
-Le code reprend à l'identique le nettoyage de la branche feature/silver
-(clean_silver.py) et le modèle de la branche feature/gold (build_gold.py),
-réunis ici et enchaînés. Le résultat est déterministe : relancé, le script
-réécrit exactement les mêmes fichiers.
+Seules les tables utilisées par l'analyse (dashboard et KPI) sont produites.
+Le résultat est déterministe : relancé, le script réécrit exactement les
+mêmes fichiers.
 
 Modèle Gold : schéma en constellation = plusieurs étoiles (une par table de
-faits) qui partagent les mêmes dimensions, avec deux liens en flocon
-(dim_produit -> dim_marque, dim_ville -> dim_pays). Un grain par table de
+faits) qui partagent les mêmes dimensions, avec un lien en flocon
+(dim_produit -> dim_marque). Un grain par table de
 faits, jamais de croisement produit x ville.
 
 Exécution (depuis la racine du dépôt) :
@@ -52,7 +51,7 @@ VUES = GOLD / "vues"
 DEBUT_PERIODE = "2025-11-01"          # début de la période Google Trends étudiée
 PRODUITS_EXCLUS = {"P04": "Aucun avis sur sephora.fr : note absente, produit retiré plutôt qu'une note inventée"}
 
-# Corrections de noms et de types produits (reprises de feature/etl-star-ai)
+# Corrections de noms et de types produits
 NOMS_PRODUITS = {
     "P09": "Gloss Balm",
     "P10": "Lip Tint Felt Liner",
@@ -170,7 +169,6 @@ def google_trends():
 # ---------------------------------------------------------------------------
 def villes():
     df = nettoyer_texte(lire_brut(RAW / "villes" / "market_cities_nl.csv"))
-    sources = df[["city_id", "ville", "source_population", "source_loyer", "source_concurrents", "commentaire"]]
     df = df.drop(columns=["source_population", "source_loyer", "source_concurrents", "commentaire"])
 
     def minutes(txt):
@@ -190,10 +188,10 @@ def villes():
     df.insert(df.columns.get_loc("nb_concurrents_total") + 1, "nb_douglas_ici",
               df.nb_douglas + df.nb_ici_paris_xl)
     log("villes", "ajout de nb_douglas_ici (sans De Bijenkorf), comparable à magasins_concurrents")
-    log("villes", "4 colonnes de texte (sources, commentaire) déplacées dans villes_sources.csv")
+    log("villes", "4 colonnes de texte (sources, commentaire) retirées : documentées dans le README")
     log("villes", "durée de trajet convertie en minutes ; distance Bruxelles signalée comme estimation")
     log("villes", "nom « 15_44 » conservé : les données CBS portent bien sur les 15-44 ans")
-    return df, sources
+    return df
 
 
 # ---------------------------------------------------------------------------
@@ -228,47 +226,9 @@ def magasins_concurrents():
 
 
 # ---------------------------------------------------------------------------
-# 5. Situation actuelle de Sephora (séparée en 2 tables)
-# ---------------------------------------------------------------------------
-MAGASINS_BE = {
-    "Ouverture Docks Bruxsel (Bruxelles)": ("Docks Bruxsel", "Bruxelles", "Ouvert", 270),
-    "Ouverture City2 (Bruxelles)": ("City2", "Bruxelles", "Ouvert", None),
-    "Ouverture Médiacité (Liège)": ("Médiacité", "Liège", "Ouvert", 400),
-    "Westland Shopping (Anderlecht)": ("Westland Shopping", "Anderlecht", "Annoncé", None),
-    "Esplanade (Louvain-la-Neuve)": ("Esplanade", "Louvain-la-Neuve", "En projet", None),
-}
-
-
-def sephora_situation():
-    df = nettoyer_texte(lire_brut(RAW / "sephora" / "sephora_situation_actuelle.csv"))
-    est_magasin = df.indicateur.isin(MAGASINS_BE)
-    mag = df[est_magasin].copy()
-    rows = []
-    for _, r in mag.iterrows():
-        nom, ville, statut, surface = MAGASINS_BE[r.indicateur]
-        date = r.valeur if re.match(r"\d{4}-\d{2}-\d{2}", r.valeur) else ""
-        rows.append({"magasin": nom, "ville": ville, "pays": "Belgique", "statut": statut,
-                     "date_ouverture": date, "surface_m2": surface, "source": r.source, "url": r.url,
-                     "fiabilite": r.fiabilite, "commentaire": r.commentaire})
-    magasins = pd.DataFrame(rows)
-    magasins["surface_m2"] = magasins.surface_m2.astype("Int64")
-    ind = df[~est_magasin].copy()
-    ind["valeur"] = num(ind.valeur)
-    ind["annee"] = ind.annee.astype(int)
-    ind["a_reverifier"] = ind.commentaire.str.contains("revérifier", case=False).astype(int)
-    ind.insert(0, "indicateur_id", range(1, len(ind) + 1))
-    log("sephora", f"colonne `valeur` mixte séparée : {len(ind)} indicateurs chiffrés + {len(magasins)} magasins belges")
-    log("sephora", "surface : 270 m² (Docks Bruxsel, source du fichier) ; 400 m² (Médiacité, L'Express Franchise)")
-    return ind, magasins
-
-
-# ---------------------------------------------------------------------------
-# 6. Tables déjà propres (contrôle des types uniquement)
+# 5. Tables déjà propres (contrôle des types uniquement)
 # ---------------------------------------------------------------------------
 def tables_propres():
-    pays = nettoyer_texte(lire_brut(RAW / "pays_fiscalite.csv"))
-    for c in ["tva_cosmetiques_pct", "droits_douane_pct", "union_douaniere_ue", "catalogue_france_eligible_pct"]:
-        pays[c] = num(pays[c])
     marche = nettoyer_texte(lire_brut(RAW / "marche" / "marche_maquillage_nl.csv"))
     for c in ["annee", "valeur_meur", "croissance_annuelle_pct"]:
         marche[c] = num(marche[c])
@@ -277,8 +237,8 @@ def tables_propres():
     for c in ["ventes_meur_2020", "part_magasins_physiques_pct", "part_marche_total_pct", "est_magasin_physique"]:
         canaux[c] = num(canaux[c])
     canaux.insert(0, "canal_id", range(1, len(canaux) + 1))
-    log("tables_propres", "pays, marché, canaux : aucune anomalie ; types numériques contrôlés")
-    return pays, marche, canaux
+    log("tables_propres", "marché, canaux : aucune anomalie ; types numériques contrôlés")
+    return marche, canaux
 
 
 def previsions(ids_produits):
@@ -361,7 +321,6 @@ def controler_silver(t):
     check("prévisions : mêmes scénarios dans marges_nl et rentabilite_villes",
           set(mg.scenario) == set(t["rentabilite_villes"].scenario))
     check("prévisions : rentabilité reliée aux villes", set(t["rentabilite_villes"].city_id) == set(v.city_id))
-    check("sephora : indicateurs tous numériques", t["sephora_indicateurs"].valeur.notna().all())
     return ok
 
 
@@ -369,19 +328,14 @@ def nettoyer_silver():
     """Étape 1 : data/raw + data/previsions -> data/silver. Renvoie True si les contrôles sont OK."""
     SILVER.mkdir(parents=True, exist_ok=True)
     produits = produits_prix()
-    villes_nl, villes_sources = villes()
-    indicateurs, magasins_be = sephora_situation()
-    pays, marche, canaux = tables_propres()
+    villes_nl = villes()
+    marche, canaux = tables_propres()
     prix, marges, renta = previsions(set(produits.product_id))
     tables = {
         "produits_prix": produits,
         "google_trends_long": google_trends(),
         "villes_nl": villes_nl,
-        "villes_sources": villes_sources,
         "magasins_concurrents": magasins_concurrents(),
-        "sephora_indicateurs": indicateurs,
-        "sephora_magasins_belgique": magasins_be,
-        "pays_fiscalite": pays,
         "marche_maquillage": marche,
         "parts_de_marche_canaux": canaux,
         "prix_vente_nl": prix,
@@ -505,7 +459,6 @@ def dim_ville(villes):
         "ville_id": villes.city_id,
         "ville": villes.ville,
         "ville_geo": villes.ville.map(VILLES_GEO),
-        "pays_id": "NL",
         "rue_reference_loyer": villes.rue_reference_loyer,
         "distance_bruxelles_estimee": villes.distance_bruxelles_estimee,
     })
@@ -523,10 +476,6 @@ def dim_canal(canaux):
     c.insert(0, "canal_id", range(1, len(c) + 1))
     c["est_magasin_physique"] = c.est_magasin_physique.astype(int)
     return c
-
-
-def dim_pays(pays):
-    return pays.rename(columns={"country_code": "pays_id"})
 
 
 def dim_date(dates):
@@ -695,38 +644,6 @@ def fact_canal(canaux, dcanal):
     })
 
 
-def fact_sephora_indicateur(ind):
-    return pd.DataFrame({
-        "indicateur_id": ind.indicateur_id,
-        "enseigne_id": 1,
-        "date_id": ind.annee.map(id_annee),
-        "categorie": ind.categorie,
-        "indicateur": ind.indicateur,
-        "valeur": ind.valeur,
-        "unite": ind.unite,
-        "perimetre": ind.perimetre,
-        "fiabilite": ind.fiabilite,
-        "a_reverifier": ind.a_reverifier,
-        "source": ind.source,
-        "url": ind.url,
-    })
-
-
-def fact_sephora_magasin_belgique(mag):
-    d = pd.to_datetime(mag.date_ouverture)
-    return pd.DataFrame({
-        "magasin_be_id": range(1, len(mag) + 1),
-        "enseigne_id": 1,
-        "date_id": d.dt.strftime("%Y%m%d").astype("Int64"),
-        "magasin": mag.magasin,
-        "ville": mag.ville,
-        "statut": mag.statut,
-        "surface_m2": mag.surface_m2.astype("Int64"),
-        "nb_magasins": 1,
-        "source": mag.source,
-    })
-
-
 # ===========================================================================
 # Vues à plat et KPI
 # ===========================================================================
@@ -818,7 +735,7 @@ def controler_gold(t):
 
     print("--- CONTRÔLES DE QUALITÉ ---")
     cles = {"dim_produit": "produit_id", "dim_marque": "marque_id", "dim_ville": "ville_id", "dim_date": "date_id",
-            "dim_scenario": "scenario_id", "dim_enseigne": "enseigne_id", "dim_canal": "canal_id", "dim_pays": "pays_id"}
+            "dim_scenario": "scenario_id", "dim_enseigne": "enseigne_id", "dim_canal": "canal_id"}
     for dim, k in cles.items():
         check(f"{dim} : clé {k} unique et non vide", t[dim][k].is_unique and t[dim][k].notna().all())
 
@@ -834,10 +751,7 @@ def controler_gold(t):
         ("fact_marche", "date_id", "dim_date"),
         ("fact_canal", "canal_id", "dim_canal"), ("fact_canal", "enseigne_id", "dim_enseigne"),
         ("fact_canal", "date_id", "dim_date"),
-        ("fact_sephora_indicateur", "enseigne_id", "dim_enseigne"), ("fact_sephora_indicateur", "date_id", "dim_date"),
-        ("fact_sephora_magasin_belgique", "enseigne_id", "dim_enseigne"),
-        ("fact_sephora_magasin_belgique", "date_id", "dim_date"),
-        ("dim_produit", "marque_id", "dim_marque"), ("dim_ville", "pays_id", "dim_pays"),
+        ("dim_produit", "marque_id", "dim_marque"),
     ]
     for fact, fk, dim in liens:
         orph = set(t[fact][fk].dropna()) - set(t[dim][cles[dim]])
@@ -846,8 +760,7 @@ def controler_gold(t):
     grains = {"fact_prix_produit": ["produit_id"], "fact_marge_produit": ["produit_id", "scenario_id"],
               "fact_recherche_google": ["marque_id", "date_id"], "fact_ville": ["ville_id"],
               "fact_magasin_concurrent": ["magasin_id"], "fact_rentabilite": ["ville_id", "scenario_id", "annee"],
-              "fact_marche": ["annee", "perimetre"], "fact_canal": ["canal_id", "enseigne_id"],
-              "fact_sephora_indicateur": ["indicateur_id"], "fact_sephora_magasin_belgique": ["magasin_be_id"]}
+              "fact_marche": ["annee", "perimetre"], "fact_canal": ["canal_id", "enseigne_id"]}
     for fact, g in grains.items():
         check(f"{fact} : grain unique ({' × '.join(g)})", not t[fact].duplicated(g).any())
 
@@ -881,7 +794,6 @@ def construire_gold():
     produits, trends, villes = lire_silver("produits_prix"), lire_silver("google_trends_long"), lire_silver("villes_nl")
     magasins, canaux, marche = lire_silver("magasins_concurrents"), lire_silver("parts_de_marche_canaux"), lire_silver("marche_maquillage")
     renta, marges, prix_vente = lire_silver("rentabilite_villes"), lire_silver("marges_nl"), lire_silver("prix_vente_nl")
-    ind, mag_be, pays = lire_silver("sephora_indicateurs"), lire_silver("sephora_magasins_belgique"), lire_silver("pays_fiscalite")
 
     t = {}
     t["dim_marque"] = dim_marque(produits, trends)
@@ -890,7 +802,6 @@ def construire_gold():
     t["dim_scenario"] = dim_scenario()
     t["dim_enseigne"] = ENSEIGNES.copy()
     t["dim_canal"] = dim_canal(canaux)
-    t["dim_pays"] = dim_pays(pays)
 
     t["fact_prix_produit"] = fact_prix_produit(produits, prix_vente, t["dim_marque"])
     t["fact_marge_produit"] = fact_marge_produit(marges, t["dim_scenario"])
@@ -900,11 +811,9 @@ def construire_gold():
     t["fact_rentabilite"] = fact_rentabilite(renta, t["dim_scenario"])
     t["fact_marche"] = fact_marche(marche)
     t["fact_canal"] = fact_canal(canaux, t["dim_canal"])
-    t["fact_sephora_indicateur"] = fact_sephora_indicateur(ind)
-    t["fact_sephora_magasin_belgique"] = fact_sephora_magasin_belgique(mag_be)
 
-    dates = set(trends.semaine) | {DATE_RELEVE} | set(mag_be.date_ouverture.dropna())
-    for f in ["fact_rentabilite", "fact_marche", "fact_canal", "fact_sephora_indicateur"]:
+    dates = set(trends.semaine) | {DATE_RELEVE}
+    for f in ["fact_rentabilite", "fact_marche", "fact_canal"]:
         dates |= {pd.to_datetime(str(x), format="%Y%m%d").strftime("%Y-%m-%d") for x in t[f].date_id}
     t["dim_date"] = dim_date(dates)
 
