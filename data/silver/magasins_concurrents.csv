@@ -1,0 +1,131 @@
+store_id,enseigne,store_ref,nom_magasin,adresse,ville,code_postal,latitude,longitude,source,city_id,is_ville_cible,has_gps
+1,Douglas,Alkmaar Langestraat,Alkmaar Langestraat,,Alkmaar,1811 JG,52.6308724,4.7491094,douglas.nl API stores - 2026-11-12,,0,1
+2,Douglas,Almelo Galerij,Almelo Galerij,,Almelo,7607 HR,52.3556319,6.6647784,douglas.nl API stores - 2026-11-12,,0,1
+3,Douglas,Almere De Diagonaal,Almere De Diagonaal,,Almere,1315 XD,52.3703854,5.2204424,douglas.nl API stores - 2026-11-12,,0,1
+4,Douglas,Alphen aan den Rijn De Aarhof,Alphen aan den Rijn De Aarhof,,Alphen a/d Rijn,2406 CE,52.1292154,4.6639401,douglas.nl API stores - 2026-11-12,,0,1
+5,Douglas,Amersfoort Emiclaerhof,Amersfoort Emiclaerhof,,Amersfoort,3823 EM,52.1860697,5.3965126,douglas.nl API stores - 2026-11-12,,0,1
+6,Douglas,Amersfoort Utrechtsestraat,Amersfoort Utrechtsestraat,,Amersfoort,3811 LB,52.1540218,5.3855962,douglas.nl API stores - 2026-11-12,,0,1
+7,Douglas,Amstelveen Binnenhof,Amstelveen Binnenhof,,Amstelveen,1181 ZJ,52.3013419,4.8673322,douglas.nl API stores - 2026-11-12,,0,1
+8,Douglas,Amsterdam Beethovenstraat,Amsterdam Beethovenstraat,,Amsterdam,1077 JH,52.3497284,4.8775646,douglas.nl API stores - 2026-11-12,1,1,1
+9,Douglas,Amsterdam Buikslotermeerplein,Amsterdam Buikslotermeerplein,,Amsterdam,1025 XC,52.3986009,4.939237,douglas.nl API stores - 2026-11-12,1,1,1
+10,Douglas,Amsterdam Ferdinand Bolstraat,Amsterdam Ferdinand Bolstraat,,Amsterdam,1072 LN,52.354702,4.890187,douglas.nl API stores - 2026-11-12,1,1,1
+11,Douglas,Amsterdam Gelderlandplein,Amsterdam Gelderlandplein,,Amsterdam,1082 LV,52.33158,4.877046,douglas.nl API stores - 2026-11-12,1,1,1
+12,Douglas,Amsterdam Kalverstraat,Amsterdam Kalverstraat,,Amsterdam,1012 NZ,52.3705794,4.8918804,douglas.nl API stores - 2026-11-12,1,1,1
+13,Douglas,Amsterdam Nieuwendijk,Amsterdam Nieuwendijk,,Amsterdam,1012 MV,52.3747492,4.893513,douglas.nl API stores - 2026-11-12,1,1,1
+14,Douglas,Amsterdam Oostpoort,Amsterdam Oostpoort,,Amsterdam,1093 NH,52.3568867,4.9297044,douglas.nl API stores - 2026-11-12,1,1,1
+15,Douglas,Amsterdam Osdorpplein,Amsterdam Osdorpplein,,Amsterdam,1068 TC,52.3593084,4.8048825,douglas.nl API stores - 2026-11-12,1,1,1
+16,Douglas,Amsterdam PC Hooftstraat,Amsterdam PC Hooftstraat,,Amsterdam,1071 BS,52.3595549,4.878605,douglas.nl API stores - 2026-11-12,1,1,1
+17,Douglas,Apeldoorn Hoofdstraat,Apeldoorn Hoofdstraat,,Apeldoorn,7311 JZ,52.2146436,5.9619466,douglas.nl API stores - 2026-11-12,,0,1
+18,Douglas,Arnhem Ketelstraat,Arnhem Ketelstraat,,Arnhem,6811 CZ,51.981803,5.9091687,douglas.nl API stores - 2026-11-12,,0,1
+19,Douglas,Arnhem Kronenburgpassage,Arnhem Kronenburgpassage,,Arnhem,6831 ER,51.9586067,5.8972618,douglas.nl API stores - 2026-11-12,,0,1
+20,Douglas,Assen Mercurius Centrum,Assen Mercurius Centrum,,Assen,9401 DL,52.9961257,6.5597247,douglas.nl API stores - 2026-11-12,,0,1
+21,Douglas,Baarn Laanstraat,Baarn Laanstraat,,Baarn,3743 BB,52.2116043,5.2880801,douglas.nl API stores - 2026-11-12,,0,1
+22,Douglas,Bergen op Zoom,Bergen op Zoom,,Bergen op Zoom,4611 PJ,51.4948439,4.2884882,douglas.nl API stores - 2026-11-12,,0,1
+23,Douglas,Beverwijk Breestraat,Beverwijk Breestraat,,Beverwijk,1941 EK,52.481346,4.6568654,douglas.nl API stores - 2026-11-12,,0,1
+24,Douglas,Breda Eindstraat,Breda Eindstraat,,Breda,4811 KL,51.586463,4.7760494,douglas.nl API stores - 2026-11-12,,0,1
+25,Douglas,Bussum Nassaulaan,Bussum Nassaulaan,,Bussum,1404 CM,52.2751607,5.1611852,douglas.nl API stores - 2026-11-12,,0,1
+26,Douglas,Capelle aan den IJssel De Koperwiek,Capelle aan den IJssel De Koperwiek,,Capelle a/d IJssel,2903 HA,51.931645,4.589229,douglas.nl API stores - 2026-11-12,,0,1
+27,Douglas,Delft Bastiaansplein,Delft Bastiaansplein,,Delft,2611 DC,52.0086948,4.3638558,douglas.nl API stores - 2026-11-12,,0,1
+28,Douglas,Den Bosch Hooge Steenweg,Den Bosch Hooge Steenweg,,Den Bosch,5211 JP,51.6899791,5.3017722,douglas.nl API stores - 2026-11-12,,0,1
+29,Douglas,Den Haag Frederik Hendriklaan,Den Haag Frederik Hendriklaan,,La Haye,2582 BK,52.0917886,4.2754236,douglas.nl API stores - 2026-11-12,4,1,1
+30,Douglas,Den Haag Hoytemastraat,Den Haag Hoytemastraat,,La Haye,2596 ER,52.0924728,4.3245684,douglas.nl API stores - 2026-11-12,4,1,1
+31,Douglas,Den Haag Passage,Den Haag Passage,,La Haye,2511 AE,52.0772579,4.3125552,douglas.nl API stores - 2026-11-12,4,1,1
+32,Douglas,Den Haag Venestraat,Den Haag Venestraat,,La Haye,2511 AS,52.0772619,4.310155,douglas.nl API stores - 2026-11-12,4,1,1
+33,Douglas,Den Helder Spoorstraat,Den Helder Spoorstraat,,Den Helder,1781 JB,52.9593373,4.7622416,douglas.nl API stores - 2026-11-12,,0,1
+34,Douglas,Deventer Lange Bisschopsstraat,Deventer Lange Bisschopsstraat,,Deventer,7411 KJ,52.2537324,6.1578611,douglas.nl API stores - 2026-11-12,,0,1
+35,Douglas,Diemen Diemerplein,Diemen Diemerplein,,Diemen,1111 JD,52.3419189,4.9624126,douglas.nl API stores - 2026-11-12,,0,1
+36,Douglas,Doetinchem Hamburgerstraat,Doetinchem Hamburgerstraat,,Doetinchem,7001 AK,51.965235,6.2891907,douglas.nl API stores - 2026-11-12,,0,1
+37,Douglas,Dordrecht Drievriendenhof,Dordrecht Drievriendenhof,,Dordrecht,3311 NG,51.8138535,4.6690101,douglas.nl API stores - 2026-11-12,,0,1
+38,Douglas,Bovenkarspel de Middend,Bovenkarspel de Middend,,Bovenkarspel,1611 KV,52.6971965,5.2344997,douglas.nl API stores - 2026-11-12,,0,1
+39,Douglas,Zaltbommel,Zaltbommel,,Zaltbommel,5301 AE,51.812683,5.2485608,douglas.nl API stores - 2026-11-12,,0,1
+40,Douglas,Drachten Zuiderbuurt,Drachten Zuiderbuurt,,Drachten,9203 CS,53.1064004,6.0984339,douglas.nl API stores - 2026-11-12,,0,1
+41,Douglas,Ede Grotestraat,Ede Grotestraat,,Ede,6711 AM,52.0448005,5.6703714,douglas.nl API stores - 2026-11-12,,0,1
+42,Douglas,Eindhoven Demer,Eindhoven Demer,,Eindhoven,5611 AS,51.4398612,5.4770893,douglas.nl API stores - 2026-11-12,,0,1
+43,Douglas,Eindhoven Heuvel Galerie,Eindhoven Heuvel Galerie,,Eindhoven,5611 DK,51.4393637,5.4794283,douglas.nl API stores - 2026-11-12,,0,1
+44,Douglas,Eindhoven Woensel,Eindhoven Woensel,,Eindhoven,5625 AG,51.4689209,5.4765402,douglas.nl API stores - 2026-11-12,,0,1
+45,Douglas,Emmen De Vlinder,Emmen De Vlinder,,Emmen,7811 DH,52.7841229,6.8946944,douglas.nl API stores - 2026-11-12,,0,1
+46,Douglas,Enschede Kalanderstraat,Enschede Kalanderstraat,,Enschede,7511 HX,52.2194557,6.8989714,douglas.nl API stores - 2026-11-12,,0,1
+47,Douglas,Goes Lange Kerkstraat,Goes Lange Kerkstraat,,Goes,4461 JH,51.5036488,3.8910089,douglas.nl API stores - 2026-11-12,,0,1
+48,Douglas,Gorinchem Gasthuisstraat,Gorinchem Gasthuisstraat,,Gorinchem,4201 JP,51.8304227,4.9743032,douglas.nl API stores - 2026-11-12,,0,1
+49,Douglas,Groningen Guldenstraat,Groningen Guldenstraat,,Groningen,9712 CG,53.2184785,6.5652047,douglas.nl API stores - 2026-11-12,,0,1
+50,Douglas,Haarlem Grote Markt,Haarlem Grote Markt,,Haarlem,2011 RC,52.3816888,4.635539,douglas.nl API stores - 2026-11-12,,0,1
+51,Douglas,Haren Brinkhorst,Haren Brinkhorst,,Haren,9751 AS,53.1734794,6.6048783,douglas.nl API stores - 2026-11-12,,0,1
+52,Douglas,Heemstede Binnenweg,Heemstede Binnenweg,,Heemstede,2101 JG,52.3551951,4.6206554,douglas.nl API stores - 2026-11-12,,0,1
+53,Douglas,Heerhugowaard Middenwaard,Heerhugowaard Middenwaard,,Heerhugowaard,1703 SE,52.6630238,4.8296708,douglas.nl API stores - 2026-11-12,,0,1
+54,Douglas,Heerlen Saroleastraat,Heerlen Saroleastraat,,Heerlen,6411 LT,50.8881464,5.9783318,douglas.nl API stores - 2026-11-12,,0,1
+55,Douglas,Hellevoetsluis Struytse Hoeck,Hellevoetsluis Struytse Hoeck,,Hellevoetsluis,3223 DE,51.8333988,4.1455026,douglas.nl API stores - 2026-11-12,,0,1
+56,Douglas,Helmond Elzas Passage,Helmond Elzas Passage,,Helmond,5701 RX,51.4796098,5.6547398,douglas.nl API stores - 2026-11-12,,0,1
+57,Douglas,Hengelo Enschedesestraat,Hengelo Enschedesestraat,,Hengelo,7551 EM,52.264752,6.7942951,douglas.nl API stores - 2026-11-12,,0,1
+58,Douglas,Hilversum Kerkstraat,Hilversum Kerkstraat,,Hilversum,1211 CP,52.2255546,5.1753855,douglas.nl API stores - 2026-11-12,,0,1
+59,Douglas,Hoofddorp Marktlaan,Hoofddorp Marktlaan,,Hoofddorp,2132 DL,52.303033,4.692039,douglas.nl API stores - 2026-11-12,,0,1
+60,Douglas,Hoogeveen Hoofdstraat,Hoogeveen Hoofdstraat,,Hoogeveen,7901 JW,52.7234491,6.4774914,douglas.nl API stores - 2026-11-12,,0,1
+61,Douglas,Hoorn Nieuwsteeg,Hoorn Nieuwsteeg,,Hoorn,1621 ED,52.6409294,5.0571133,douglas.nl API stores - 2026-11-12,,0,1
+62,Douglas,Katwijk aan Zee Voorstraat,Katwijk aan Zee Voorstraat,,Katwijk aan Zee,2225 ER,52.20416,4.3949252,douglas.nl API stores - 2026-11-12,,0,1
+63,Douglas,Laren Zevenend,Laren Zevenend,,Laren,1251 RK,52.2544658,5.227326,douglas.nl API stores - 2026-11-12,,0,1
+64,Douglas,Leeuwarden Nieuwestad,Leeuwarden Nieuwestad,,Leeuwarden,8911 DB,53.2003406,5.7954262,douglas.nl API stores - 2026-11-12,,0,1
+65,Douglas,Leiden Haarlemmerstraat,Leiden Haarlemmerstraat,,Leiden,2312 DN,52.1600888,4.4922607,douglas.nl API stores - 2026-11-12,,0,1
+66,Douglas,Leidschendam Westfield,Leidschendam Westfield,,Leidschendam,2262 AC,52.0883581,4.3859999,douglas.nl API stores - 2026-11-12,,0,1
+67,Douglas,Maastricht Grote Staat,Maastricht Grote Staat,,Maastricht,6211 CW,50.8500323,5.6910292,douglas.nl API stores - 2026-11-12,,0,1
+68,Douglas,Middelburg Lange Delft,Middelburg Lange Delft,,Middelburg,4331 AL,51.4985303,3.6146697,douglas.nl API stores - 2026-11-12,,0,1
+69,Douglas,Nieuwegein Cityplaza,Nieuwegein Cityplaza,,Nieuwegein,3431 LM,52.0270924,5.1613848,douglas.nl API stores - 2026-11-12,,0,1
+70,Douglas,Nijmegen Burchtstraat,Nijmegen Burchtstraat,,Nijmegen,6511 RD,51.847131,5.8650535,douglas.nl API stores - 2026-11-12,,0,1
+71,Douglas,Nijmegen Marikenstraat,Nijmegen Marikenstraat,,Nijmegen,6511 PX,51.8454587,5.8659901,douglas.nl API stores - 2026-11-12,,0,1
+72,Douglas,Oldenzaal Driehoek,Oldenzaal Driehoek,,Oldenzaal,7571 ET,52.313788,6.9278461,douglas.nl API stores - 2026-11-12,,0,1
+73,Douglas,Oosterhout Arendstraat,Oosterhout Arendstraat,,Oosterhout,4901 JK,51.6438652,4.857962,douglas.nl API stores - 2026-11-12,,0,1
+74,Douglas,Oss Heuvel,Oss Heuvel,,Oss,5341 CW,51.7698174,5.5246834,douglas.nl API stores - 2026-11-12,,0,1
+75,Douglas,Panningen Markt,Panningen Markt,,Panningen,5981 AP,51.3293374,5.9817848,douglas.nl API stores - 2026-11-12,,0,1
+76,Douglas,Purmerend Hoogstraat,Purmerend Hoogstraat,,Purmerend,1441 BC,52.5093332,4.9454115,douglas.nl API stores - 2026-11-12,,0,1
+77,Douglas,Ridderkerk Jorishof,Ridderkerk Jorishof,,Ridderkerk,2981 GD,51.8703774,4.6006688,douglas.nl API stores - 2026-11-12,,0,1
+78,Douglas,Rijswijk Bogaard,Rijswijk Bogaard,,Rijswijk,2284 DK,52.0361496,4.3159201,douglas.nl API stores - 2026-11-12,,0,1
+79,Douglas,Roermond Steenweg,Roermond Steenweg,,Roermond,6041 EV,51.1936647,5.9875713,douglas.nl API stores - 2026-11-12,,0,1
+80,Douglas,Roosendaal Nieuwe Markt,Roosendaal Nieuwe Markt,,Roosendaal,4701 AA,51.5319042,4.4554486,douglas.nl API stores - 2026-11-12,,0,1
+81,Douglas,Rotterdam Alexandrium,Rotterdam Alexandrium,,Rotterdam,3067 LX,51.9507662,4.553962,douglas.nl API stores - 2026-11-12,2,1,1
+82,Douglas,Rotterdam Beurstraverse,Rotterdam Beurstraverse,,Rotterdam,3011 AE,51.9204054,4.4803439,douglas.nl API stores - 2026-11-12,2,1,1
+83,Douglas,Rotterdam Lijnbaan,Rotterdam Lijnbaan,,Rotterdam,3012 EN,51.9186266,4.4778862,douglas.nl API stores - 2026-11-12,2,1,1
+84,Douglas,Rotterdam Weissenbruchlaan,Rotterdam Weissenbruchlaan,,Rotterdam,3054 LS,51.9570117,4.4962775,douglas.nl API stores - 2026-11-12,2,1,1
+85,Douglas,Rotterdam Zuidplein,Rotterdam Zuidplein,,Rotterdam,3083 BH,51.886951,4.4895198,douglas.nl API stores - 2026-11-12,2,1,1
+86,Douglas,Schagen Makado Centrum,Schagen Makado Centrum,,Schagen,1741 JA,52.7878084,4.7981043,douglas.nl API stores - 2026-11-12,,0,1
+87,Douglas,Sittard Limbrichterstraat,Sittard Limbrichterstraat,,Sittard,6131 ED,50.9981582,5.8676462,douglas.nl API stores - 2026-11-12,,0,1
+88,Douglas,Sluis Kapellestraat,Sluis Kapellestraat,,Sluis,4524 CZ,51.3074247,3.3871288,douglas.nl API stores - 2026-11-12,,0,1
+89,Douglas,Spijkenisse Uitstraat,Spijkenisse Uitstraat,,Spijkenisse,3201 EN,51.8490326,4.3287121,douglas.nl API stores - 2026-11-12,,0,1
+90,Douglas,Tiel Waterstraat,Tiel Waterstraat,,Tiel,4001 AN,51.8878862,5.4344535,douglas.nl API stores - 2026-11-12,,0,1
+91,Douglas,Tilburg Heuvelstraat,Tilburg Heuvelstraat,,Tilburg,5038 AA,51.5570028,5.0886306,douglas.nl API stores - 2026-11-12,,0,1
+92,Douglas,Uden Marktstraat,Uden Marktstraat,,Uden,5401 GH,51.6577294,5.6135342,douglas.nl API stores - 2026-11-12,,0,1
+93,Douglas,Utrecht Hoog Catharijne,Utrecht Hoog Catharijne,,Utrecht,3511 WR,52.0908025,5.111119,douglas.nl API stores - 2026-11-12,3,1,1
+94,Douglas,Utrecht Overvecht,Utrecht Overvecht,,Utrecht,3562 KB,52.1134249,5.1115752,douglas.nl API stores - 2026-11-12,3,1,1
+95,Douglas,Utrecht Vredenburg,Utrecht Vredenburg,,Utrecht,3511 BA,52.0921065,5.1152644,douglas.nl API stores - 2026-11-12,3,1,1
+96,Douglas,Veenendaal Hoofdstraat,Veenendaal Hoofdstraat,,Veenendaal,3901 AA,52.026326,5.554921,douglas.nl API stores - 2026-11-12,,0,1
+97,Douglas,Veghel Hoofdstraat,Veghel Hoofdstraat,,Veghel,5461 JG,51.6163986,5.5447989,douglas.nl API stores - 2026-11-12,,0,1
+98,Douglas,Veldhoven Citycentrum,Veldhoven Citycentrum,,Veldhoven,5501 JK,51.4193005,5.4059401,douglas.nl API stores - 2026-11-12,,0,1
+99,Douglas,Velp Hoofdstraat,Velp Hoofdstraat,,Velp,6881 TD,51.9956388,5.9706126,douglas.nl API stores - 2026-11-12,,0,1
+100,Douglas,Venlo Vleesstraat,Venlo Vleesstraat,,Venlo,5911 JC,51.3695262,6.1692594,douglas.nl API stores - 2026-11-12,,0,1
+101,Douglas,Waalwijk Stationstraat,Waalwijk Stationstraat,,Waalwijk,5141 GE,51.6897879,5.0665313,douglas.nl API stores - 2026-11-12,,0,1
+102,Douglas,Wassenaar Molenstraat,Wassenaar Molenstraat,,Wassenaar,2242 HT,52.1430349,4.3945012,douglas.nl API stores - 2026-11-12,,0,1
+103,Douglas,Weert Langstraat,Weert Langstraat,,Weert,6001 CS,51.2522977,5.706503,douglas.nl API stores - 2026-11-12,,0,1
+104,Douglas,Wijchen Markt,Wijchen Markt,,Wijchen,6602 AN,51.8073163,5.7266129,douglas.nl API stores - 2026-11-12,,0,1
+105,Douglas,Woerden Kerkplein,Woerden Kerkplein,,Woerden,3441 BG,52.085639,4.883437,douglas.nl API stores - 2026-11-12,,0,1
+106,Douglas,Zaandam Gedempte Gracht,Zaandam Gedempte Gracht,,Zaandam,1506 CG,52.4395378,4.8216547,douglas.nl API stores - 2026-11-12,,0,1
+107,Douglas,Zeist Slotlaan,Zeist Slotlaan,,Zeist,3701 GS,52.0853751,5.244129,douglas.nl API stores - 2026-11-12,,0,1
+108,Douglas,Zoetermeer Stadshart,Zoetermeer Stadshart,,Zoetermeer,2711 HC,52.0616347,4.4912968,douglas.nl API stores - 2026-11-12,,0,1
+109,Douglas,Zutphen Beukerstraat,Zutphen Beukerstraat,,Zutphen,7201 LA,52.1421868,6.1966676,douglas.nl API stores - 2026-11-12,,0,1
+110,Douglas,Zwolle Diezerstraat,Zwolle Diezerstraat,,Zwolle,8011 RA,52.5125087,6.0936037,douglas.nl API stores - 2026-11-12,,0,1
+111,Douglas,Sneek Schaapmarktplein,Sneek Schaapmarktplein,,Sneek,8601 CE,53.0325391,5.6614022,douglas.nl API stores - 2026-11-12,,0,1
+112,ICI Paris XL,ICI-7417,ICI Paris XL Beethovenstraat 34,Beethovenstraat 34,Amsterdam,1077 JH,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+113,ICI Paris XL,ICI-7236,ICI Paris XL Buikslotermeerplein 72,Buikslotermeerplein 72,Amsterdam,1025 EW,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+114,ICI Paris XL,ICI-7217,ICI Paris XL Gelderlandplein 163-165,Gelderlandplein 163-165,Amsterdam,1082 LW,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+115,ICI Paris XL,ICI-7837,ICI Paris XL Nieuwendijk 233-235,Nieuwendijk 233-235,Amsterdam,1012 MH,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+116,ICI Paris XL,ICI-7053,ICI Paris XL Osdorpplein 378,Osdorpplein 378,Amsterdam,1068 EV,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+117,ICI Paris XL,ICI-7042,ICI Paris XL Bijlmerplein 873,Bijlmerplein 873,Amsterdam,1102 MG,,,iciparisxl.nl/alle-winkels - 2026-11-12,1,1,0
+118,ICI Paris XL,ICI-7382,ICI Paris XL Lijnbaan 138,Lijnbaan 138,Rotterdam,3012 ER,,,iciparisxl.nl/alle-winkels - 2026-11-12,2,1,0
+119,ICI Paris XL,ICI-7014,ICI Paris XL Poolsterstraat 98,Poolsterstraat 98,Rotterdam,3067 LX,,,iciparisxl.nl/alle-winkels - 2026-11-12,2,1,0
+120,ICI Paris XL,ICI-7717,ICI Paris XL Streksingel 67b,Streksingel 67b,Rotterdam,3054 HB,,,iciparisxl.nl/alle-winkels - 2026-11-12,2,1,0
+121,ICI Paris XL,ICI-7122,ICI Paris XL Zuidplein Hoog 827,Zuidplein Hoog 827,Rotterdam,3083 BK,,,iciparisxl.nl/alle-winkels - 2026-11-12,2,1,0
+122,ICI Paris XL,ICI-7826,ICI Paris XL Zwart Janstraat 103-105,Zwart Janstraat 103-105,Rotterdam,3035 AN,,,iciparisxl.nl/alle-winkels - 2026-11-12,2,1,0
+123,ICI Paris XL,ICI-7844,ICI Paris XL Fahrenheitstraat 623,Fahrenheitstraat 623,La Haye,2561 DC,,,iciparisxl.nl/alle-winkels - 2026-11-12,4,1,0
+124,ICI Paris XL,ICI-7445,ICI Paris XL Frederik Hendriklaan 108,Frederik Hendriklaan 108,La Haye,2582 BG,,,iciparisxl.nl/alle-winkels - 2026-11-12,4,1,0
+125,ICI Paris XL,ICI-7129,ICI Paris XL Grote Marktstraat 38,Grote Marktstraat 38,La Haye,2511 BJ,,,iciparisxl.nl/alle-winkels - 2026-11-12,4,1,0
+126,ICI Paris XL,ICI-7479,ICI Paris XL Leyweg 657n,Leyweg 657n,La Haye,2545 GK,,,iciparisxl.nl/alle-winkels - 2026-11-12,4,1,0
+127,ICI Paris XL,ICI-7845,ICI Paris XL Passage 69,Passage 69,La Haye,2511 AC,,,iciparisxl.nl/alle-winkels - 2026-11-12,4,1,0
+128,ICI Paris XL,ICI-6051,ICI Paris XL Parijsboulevard 32,Parijsboulevard 32,Utrecht,3541 CX,,,iciparisxl.nl/alle-winkels - 2026-11-12,3,1,0
+129,ICI Paris XL,ICI-7803,ICI Paris XL Roelantdreef 236,Roelantdreef 236,Utrecht,3562 KH,,,iciparisxl.nl/alle-winkels - 2026-11-12,3,1,0
+130,ICI Paris XL,ICI-6672,ICI Paris XL Vredenburg 2,Vredenburg 2,Utrecht,3511 BA,,,iciparisxl.nl/alle-winkels - 2026-11-12,3,1,0
