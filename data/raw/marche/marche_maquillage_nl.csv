@@ -1,0 +1,9 @@
+annee,perimetre,valeur_meur,croissance_annuelle_pct,statut,source,remarque
+2019,Maquillage NL,375.6,,Calculé,"Dérivé de NCV 2020 : 317 / (1 - 0,156)",Valeur 2020 publiée arrondie
+2020,Maquillage NL,317.0,-15.6,Publié,NCV via Beauty-Pro.nl,Creux Covid
+2024,Maquillage NL,515.0,,Publié,NCV via porterenee.nl,Recoupement MarketLine : 557 M€ (603 M$)
+2025,Maquillage NL,510.9,-0.8,"Taux publié, valeur calculée",NCV via Tophair.nl (15/04/2026),"515 × (1 - 0,008)"
+2020,Cosmétiques total NL,2600,-1.0,Publié,NCV via Beauty-Pro.nl,Périmètre NielsenIQ
+2023,Cosmétiques total NL,3000,9.5,Publié,NCV,Plus de 3 Md€
+2024,Cosmétiques total NL,3800,5.9,Publié,NCV (16/04/2025),
+2025,Cosmétiques total NL,3700,1.3,Publié,NCV (2026),"Plus de 3,7 Md€ ; volume +0,8 %"
