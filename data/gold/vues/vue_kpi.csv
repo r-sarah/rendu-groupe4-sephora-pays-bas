@@ -1,0 +1,14 @@
+kpi_id,axe,kpi,valeur,unite,table_source
+1,Réalisable,Taille du marché du maquillage aux Pays-Bas (2024),515.0,M€,fact_marche
+2,Réalisable,Croissance annuelle moyenne du marché du maquillage 2019-2024,6.5,%/an,fact_marche
+3,Réalisable,Part de marché Douglas + ICI Paris XL (ventes en magasins physiques),21.4,%,fact_canal
+4,Réalisable,"Indice de prix Pays-Bas / France (produits partagés, TTC)",96.4,base 100 = France,fact_prix_produit
+5,Réalisable,Part des produits en exclusivité vérifiée,54.8,%,dim_produit
+6,Réalisable,Évolution des recherches « sephora » aux Pays-Bas (13 dernières vs 13 premières semaines),46.3,%,fact_recherche_google
+7,Réalisable,Score de désirabilité moyen : produits exclusifs,72.0,/100,fact_prix_produit
+8,Réalisable,Score de désirabilité moyen : produits partagés,56.3,/100,fact_prix_produit
+9,Rentable,Marge brute moyenne par produit (scénario central),10.95,€,fact_marge_produit
+10,Rentable,Taux de marge brute moyen (scénario central),42.8,%,fact_marge_produit
+11,Rentable,Nombre de combinaisons ville × scénario rentables en 2029,0.0,sur 12,fact_rentabilite
+12,Rentable,"Meilleur résultat annuel 2029 (La Haye, Optimiste)",-231005.0,€,fact_rentabilite
+13,Rentable,Part de marché minimale nécessaire au point mort,8.7,%,fact_rentabilite

@@ -1,0 +1,14 @@
+marque_id,marque,groupe_marque,is_enseigne,is_lvmh,suivie_google_trends,presente_echantillon,nb_produits_echantillon,score_trends_moyen_12m,score_trends_marque_0_100
+1,Benefit Cosmetics,LVMH,0,1,0,1,1,,
+2,Fenty Beauty,LVMH,0,1,1,1,3,8.49,35.3
+3,Haus Labs,Marque tendance,0,0,1,0,0,2.55,10.6
+4,Huda Beauty,Marque tendance,0,0,1,1,5,19.02,79.1
+5,Kylie Cosmetics,Marque tendance,0,0,1,0,0,1.43,6.0
+6,Make Up For Ever,LVMH,0,1,0,1,1,,
+7,Makeup By Mario,Marque tendance,0,0,1,1,5,3.94,16.4
+8,Rare Beauty,Marque tendance,0,0,1,1,1,13.23,55.0
+9,Rhode,Marque tendance,0,0,1,1,2,24.06,100.0
+10,Sephora,Enseigne étudiée,1,1,1,0,0,50.15,
+11,Sephora Collection,Marque maison Sephora,0,1,0,1,8,,
+12,Tarte,Marque classique,0,0,0,1,1,,
+13,Too Faced,Marque classique,0,0,0,1,4,,

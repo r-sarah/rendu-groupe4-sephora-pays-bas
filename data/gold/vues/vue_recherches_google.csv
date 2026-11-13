@@ -1,0 +1,425 @@
+marque_id,date_id,score_trends,is_semaine_pic,evenement,marque,groupe_marque,is_enseigne,date,annee,mois,mois_libelle
+2,20251102,6,0,,Fenty Beauty,LVMH,0,2025-11-02,2025,11,novembre
+3,20251102,3,0,,Haus Labs,Marque tendance,0,2025-11-02,2025,11,novembre
+4,20251102,31,0,,Huda Beauty,Marque tendance,0,2025-11-02,2025,11,novembre
+5,20251102,0,0,,Kylie Cosmetics,Marque tendance,0,2025-11-02,2025,11,novembre
+7,20251102,2,0,,Makeup By Mario,Marque tendance,0,2025-11-02,2025,11,novembre
+8,20251102,10,0,,Rare Beauty,Marque tendance,0,2025-11-02,2025,11,novembre
+9,20251102,24,0,,Rhode,Marque tendance,0,2025-11-02,2025,11,novembre
+10,20251102,47,0,,Sephora,Enseigne étudiée,1,2025-11-02,2025,11,novembre
+2,20251109,5,0,,Fenty Beauty,LVMH,0,2025-11-09,2025,11,novembre
+3,20251109,2,0,,Haus Labs,Marque tendance,0,2025-11-09,2025,11,novembre
+4,20251109,35,0,,Huda Beauty,Marque tendance,0,2025-11-09,2025,11,novembre
+5,20251109,2,0,,Kylie Cosmetics,Marque tendance,0,2025-11-09,2025,11,novembre
+7,20251109,3,0,,Makeup By Mario,Marque tendance,0,2025-11-09,2025,11,novembre
+8,20251109,10,0,,Rare Beauty,Marque tendance,0,2025-11-09,2025,11,novembre
+9,20251109,28,0,,Rhode,Marque tendance,0,2025-11-09,2025,11,novembre
+10,20251109,48,0,,Sephora,Enseigne étudiée,1,2025-11-09,2025,11,novembre
+2,20251116,4,0,,Fenty Beauty,LVMH,0,2025-11-16,2025,11,novembre
+3,20251116,2,0,,Haus Labs,Marque tendance,0,2025-11-16,2025,11,novembre
+4,20251116,48,0,,Huda Beauty,Marque tendance,0,2025-11-16,2025,11,novembre
+5,20251116,2,0,,Kylie Cosmetics,Marque tendance,0,2025-11-16,2025,11,novembre
+7,20251116,4,0,,Makeup By Mario,Marque tendance,0,2025-11-16,2025,11,novembre
+8,20251116,11,0,,Rare Beauty,Marque tendance,0,2025-11-16,2025,11,novembre
+9,20251116,24,0,,Rhode,Marque tendance,0,2025-11-16,2025,11,novembre
+10,20251116,46,0,,Sephora,Enseigne étudiée,1,2025-11-16,2025,11,novembre
+2,20251123,7,0,,Fenty Beauty,LVMH,0,2025-11-23,2025,11,novembre
+3,20251123,4,0,,Haus Labs,Marque tendance,0,2025-11-23,2025,11,novembre
+4,20251123,49,0,,Huda Beauty,Marque tendance,0,2025-11-23,2025,11,novembre
+5,20251123,3,0,,Kylie Cosmetics,Marque tendance,0,2025-11-23,2025,11,novembre
+7,20251123,4,0,,Makeup By Mario,Marque tendance,0,2025-11-23,2025,11,novembre
+8,20251123,11,0,,Rare Beauty,Marque tendance,0,2025-11-23,2025,11,novembre
+9,20251123,28,0,,Rhode,Marque tendance,0,2025-11-23,2025,11,novembre
+10,20251123,60,0,,Sephora,Enseigne étudiée,1,2025-11-23,2025,11,novembre
+2,20251130,7,0,,Fenty Beauty,LVMH,0,2025-11-30,2025,11,novembre
+3,20251130,3,0,,Haus Labs,Marque tendance,0,2025-11-30,2025,11,novembre
+4,20251130,24,0,,Huda Beauty,Marque tendance,0,2025-11-30,2025,11,novembre
+5,20251130,2,0,,Kylie Cosmetics,Marque tendance,0,2025-11-30,2025,11,novembre
+7,20251130,4,0,,Makeup By Mario,Marque tendance,0,2025-11-30,2025,11,novembre
+8,20251130,12,0,,Rare Beauty,Marque tendance,0,2025-11-30,2025,11,novembre
+9,20251130,18,0,,Rhode,Marque tendance,0,2025-11-30,2025,11,novembre
+10,20251130,48,0,,Sephora,Enseigne étudiée,1,2025-11-30,2025,11,novembre
+2,20251207,7,0,,Fenty Beauty,LVMH,0,2025-12-07,2025,12,décembre
+3,20251207,3,0,,Haus Labs,Marque tendance,0,2025-12-07,2025,12,décembre
+4,20251207,19,0,,Huda Beauty,Marque tendance,0,2025-12-07,2025,12,décembre
+5,20251207,2,0,,Kylie Cosmetics,Marque tendance,0,2025-12-07,2025,12,décembre
+7,20251207,3,0,,Makeup By Mario,Marque tendance,0,2025-12-07,2025,12,décembre
+8,20251207,9,0,,Rare Beauty,Marque tendance,0,2025-12-07,2025,12,décembre
+9,20251207,20,0,,Rhode,Marque tendance,0,2025-12-07,2025,12,décembre
+10,20251207,47,0,,Sephora,Enseigne étudiée,1,2025-12-07,2025,12,décembre
+2,20251214,5,0,,Fenty Beauty,LVMH,0,2025-12-14,2025,12,décembre
+3,20251214,2,0,,Haus Labs,Marque tendance,0,2025-12-14,2025,12,décembre
+4,20251214,17,0,,Huda Beauty,Marque tendance,0,2025-12-14,2025,12,décembre
+5,20251214,0,0,,Kylie Cosmetics,Marque tendance,0,2025-12-14,2025,12,décembre
+7,20251214,4,0,,Makeup By Mario,Marque tendance,0,2025-12-14,2025,12,décembre
+8,20251214,10,0,,Rare Beauty,Marque tendance,0,2025-12-14,2025,12,décembre
+9,20251214,19,0,,Rhode,Marque tendance,0,2025-12-14,2025,12,décembre
+10,20251214,47,0,,Sephora,Enseigne étudiée,1,2025-12-14,2025,12,décembre
+2,20251221,5,0,,Fenty Beauty,LVMH,0,2025-12-21,2025,12,décembre
+3,20251221,0,0,,Haus Labs,Marque tendance,0,2025-12-21,2025,12,décembre
+4,20251221,19,0,,Huda Beauty,Marque tendance,0,2025-12-21,2025,12,décembre
+5,20251221,3,0,,Kylie Cosmetics,Marque tendance,0,2025-12-21,2025,12,décembre
+7,20251221,3,0,,Makeup By Mario,Marque tendance,0,2025-12-21,2025,12,décembre
+8,20251221,8,0,,Rare Beauty,Marque tendance,0,2025-12-21,2025,12,décembre
+9,20251221,20,0,,Rhode,Marque tendance,0,2025-12-21,2025,12,décembre
+10,20251221,48,0,,Sephora,Enseigne étudiée,1,2025-12-21,2025,12,décembre
+2,20251228,12,0,,Fenty Beauty,LVMH,0,2025-12-28,2025,12,décembre
+3,20251228,3,0,,Haus Labs,Marque tendance,0,2025-12-28,2025,12,décembre
+4,20251228,16,0,,Huda Beauty,Marque tendance,0,2025-12-28,2025,12,décembre
+5,20251228,0,0,,Kylie Cosmetics,Marque tendance,0,2025-12-28,2025,12,décembre
+7,20251228,4,0,,Makeup By Mario,Marque tendance,0,2025-12-28,2025,12,décembre
+8,20251228,8,0,,Rare Beauty,Marque tendance,0,2025-12-28,2025,12,décembre
+9,20251228,19,0,,Rhode,Marque tendance,0,2025-12-28,2025,12,décembre
+10,20251228,45,0,,Sephora,Enseigne étudiée,1,2025-12-28,2025,12,décembre
+2,20260104,10,0,,Fenty Beauty,LVMH,0,2026-01-04,2026,1,janvier
+3,20260104,2,0,,Haus Labs,Marque tendance,0,2026-01-04,2026,1,janvier
+4,20260104,21,0,,Huda Beauty,Marque tendance,0,2026-01-04,2026,1,janvier
+5,20260104,0,0,,Kylie Cosmetics,Marque tendance,0,2026-01-04,2026,1,janvier
+7,20260104,4,0,,Makeup By Mario,Marque tendance,0,2026-01-04,2026,1,janvier
+8,20260104,8,0,,Rare Beauty,Marque tendance,0,2026-01-04,2026,1,janvier
+9,20260104,12,0,,Rhode,Marque tendance,0,2026-01-04,2026,1,janvier
+10,20260104,28,0,,Sephora,Enseigne étudiée,1,2026-01-04,2026,1,janvier
+2,20260111,14,0,,Fenty Beauty,LVMH,0,2026-01-11,2026,1,janvier
+3,20260111,2,0,,Haus Labs,Marque tendance,0,2026-01-11,2026,1,janvier
+4,20260111,21,0,,Huda Beauty,Marque tendance,0,2026-01-11,2026,1,janvier
+5,20260111,2,0,,Kylie Cosmetics,Marque tendance,0,2026-01-11,2026,1,janvier
+7,20260111,3,0,,Makeup By Mario,Marque tendance,0,2026-01-11,2026,1,janvier
+8,20260111,7,0,,Rare Beauty,Marque tendance,0,2026-01-11,2026,1,janvier
+9,20260111,16,0,,Rhode,Marque tendance,0,2026-01-11,2026,1,janvier
+10,20260111,30,0,,Sephora,Enseigne étudiée,1,2026-01-11,2026,1,janvier
+2,20260118,10,0,,Fenty Beauty,LVMH,0,2026-01-18,2026,1,janvier
+3,20260118,0,0,,Haus Labs,Marque tendance,0,2026-01-18,2026,1,janvier
+4,20260118,16,0,,Huda Beauty,Marque tendance,0,2026-01-18,2026,1,janvier
+5,20260118,0,0,,Kylie Cosmetics,Marque tendance,0,2026-01-18,2026,1,janvier
+7,20260118,2,0,,Makeup By Mario,Marque tendance,0,2026-01-18,2026,1,janvier
+8,20260118,9,0,,Rare Beauty,Marque tendance,0,2026-01-18,2026,1,janvier
+9,20260118,17,0,,Rhode,Marque tendance,0,2026-01-18,2026,1,janvier
+10,20260118,35,0,,Sephora,Enseigne étudiée,1,2026-01-18,2026,1,janvier
+2,20260125,7,0,,Fenty Beauty,LVMH,0,2026-01-25,2026,1,janvier
+3,20260125,0,0,,Haus Labs,Marque tendance,0,2026-01-25,2026,1,janvier
+4,20260125,27,0,,Huda Beauty,Marque tendance,0,2026-01-25,2026,1,janvier
+5,20260125,2,0,,Kylie Cosmetics,Marque tendance,0,2026-01-25,2026,1,janvier
+7,20260125,3,0,,Makeup By Mario,Marque tendance,0,2026-01-25,2026,1,janvier
+8,20260125,9,0,,Rare Beauty,Marque tendance,0,2026-01-25,2026,1,janvier
+9,20260125,20,0,,Rhode,Marque tendance,0,2026-01-25,2026,1,janvier
+10,20260125,35,0,,Sephora,Enseigne étudiée,1,2026-01-25,2026,1,janvier
+2,20260201,6,0,,Fenty Beauty,LVMH,0,2026-02-01,2026,2,février
+3,20260201,2,0,,Haus Labs,Marque tendance,0,2026-02-01,2026,2,février
+4,20260201,18,0,,Huda Beauty,Marque tendance,0,2026-02-01,2026,2,février
+5,20260201,2,0,,Kylie Cosmetics,Marque tendance,0,2026-02-01,2026,2,février
+7,20260201,3,0,,Makeup By Mario,Marque tendance,0,2026-02-01,2026,2,février
+8,20260201,8,0,,Rare Beauty,Marque tendance,0,2026-02-01,2026,2,février
+9,20260201,20,0,,Rhode,Marque tendance,0,2026-02-01,2026,2,février
+10,20260201,33,0,,Sephora,Enseigne étudiée,1,2026-02-01,2026,2,février
+2,20260208,4,0,,Fenty Beauty,LVMH,0,2026-02-08,2026,2,février
+3,20260208,2,0,,Haus Labs,Marque tendance,0,2026-02-08,2026,2,février
+4,20260208,15,0,,Huda Beauty,Marque tendance,0,2026-02-08,2026,2,février
+5,20260208,2,0,,Kylie Cosmetics,Marque tendance,0,2026-02-08,2026,2,février
+7,20260208,2,0,,Makeup By Mario,Marque tendance,0,2026-02-08,2026,2,février
+8,20260208,8,0,,Rare Beauty,Marque tendance,0,2026-02-08,2026,2,février
+9,20260208,19,0,,Rhode,Marque tendance,0,2026-02-08,2026,2,février
+10,20260208,32,0,,Sephora,Enseigne étudiée,1,2026-02-08,2026,2,février
+2,20260215,5,0,,Fenty Beauty,LVMH,0,2026-02-15,2026,2,février
+3,20260215,2,0,,Haus Labs,Marque tendance,0,2026-02-15,2026,2,février
+4,20260215,11,0,,Huda Beauty,Marque tendance,0,2026-02-15,2026,2,février
+5,20260215,0,0,,Kylie Cosmetics,Marque tendance,0,2026-02-15,2026,2,février
+7,20260215,2,0,,Makeup By Mario,Marque tendance,0,2026-02-15,2026,2,février
+8,20260215,8,0,,Rare Beauty,Marque tendance,0,2026-02-15,2026,2,février
+9,20260215,17,0,,Rhode,Marque tendance,0,2026-02-15,2026,2,février
+10,20260215,32,0,,Sephora,Enseigne étudiée,1,2026-02-15,2026,2,février
+2,20260222,5,0,,Fenty Beauty,LVMH,0,2026-02-22,2026,2,février
+3,20260222,2,0,,Haus Labs,Marque tendance,0,2026-02-22,2026,2,février
+4,20260222,13,0,,Huda Beauty,Marque tendance,0,2026-02-22,2026,2,février
+5,20260222,0,0,,Kylie Cosmetics,Marque tendance,0,2026-02-22,2026,2,février
+7,20260222,3,0,,Makeup By Mario,Marque tendance,0,2026-02-22,2026,2,février
+8,20260222,9,0,,Rare Beauty,Marque tendance,0,2026-02-22,2026,2,février
+9,20260222,20,0,,Rhode,Marque tendance,0,2026-02-22,2026,2,février
+10,20260222,33,0,,Sephora,Enseigne étudiée,1,2026-02-22,2026,2,février
+2,20260301,4,0,,Fenty Beauty,LVMH,0,2026-03-01,2026,3,mars
+3,20260301,3,0,,Haus Labs,Marque tendance,0,2026-03-01,2026,3,mars
+4,20260301,15,0,,Huda Beauty,Marque tendance,0,2026-03-01,2026,3,mars
+5,20260301,0,0,,Kylie Cosmetics,Marque tendance,0,2026-03-01,2026,3,mars
+7,20260301,3,0,,Makeup By Mario,Marque tendance,0,2026-03-01,2026,3,mars
+8,20260301,8,0,,Rare Beauty,Marque tendance,0,2026-03-01,2026,3,mars
+9,20260301,20,0,,Rhode,Marque tendance,0,2026-03-01,2026,3,mars
+10,20260301,30,0,,Sephora,Enseigne étudiée,1,2026-03-01,2026,3,mars
+2,20260308,4,0,,Fenty Beauty,LVMH,0,2026-03-08,2026,3,mars
+3,20260308,2,0,,Haus Labs,Marque tendance,0,2026-03-08,2026,3,mars
+4,20260308,14,0,,Huda Beauty,Marque tendance,0,2026-03-08,2026,3,mars
+5,20260308,2,0,,Kylie Cosmetics,Marque tendance,0,2026-03-08,2026,3,mars
+7,20260308,3,0,,Makeup By Mario,Marque tendance,0,2026-03-08,2026,3,mars
+8,20260308,6,0,,Rare Beauty,Marque tendance,0,2026-03-08,2026,3,mars
+9,20260308,20,0,,Rhode,Marque tendance,0,2026-03-08,2026,3,mars
+10,20260308,29,0,,Sephora,Enseigne étudiée,1,2026-03-08,2026,3,mars
+2,20260315,5,0,,Fenty Beauty,LVMH,0,2026-03-15,2026,3,mars
+3,20260315,2,0,,Haus Labs,Marque tendance,0,2026-03-15,2026,3,mars
+4,20260315,15,0,,Huda Beauty,Marque tendance,0,2026-03-15,2026,3,mars
+5,20260315,0,0,,Kylie Cosmetics,Marque tendance,0,2026-03-15,2026,3,mars
+7,20260315,4,0,,Makeup By Mario,Marque tendance,0,2026-03-15,2026,3,mars
+8,20260315,8,0,,Rare Beauty,Marque tendance,0,2026-03-15,2026,3,mars
+9,20260315,18,0,,Rhode,Marque tendance,0,2026-03-15,2026,3,mars
+10,20260315,33,0,,Sephora,Enseigne étudiée,1,2026-03-15,2026,3,mars
+2,20260322,6,0,,Fenty Beauty,LVMH,0,2026-03-22,2026,3,mars
+3,20260322,2,0,,Haus Labs,Marque tendance,0,2026-03-22,2026,3,mars
+4,20260322,13,0,,Huda Beauty,Marque tendance,0,2026-03-22,2026,3,mars
+5,20260322,0,0,,Kylie Cosmetics,Marque tendance,0,2026-03-22,2026,3,mars
+7,20260322,3,0,,Makeup By Mario,Marque tendance,0,2026-03-22,2026,3,mars
+8,20260322,8,0,,Rare Beauty,Marque tendance,0,2026-03-22,2026,3,mars
+9,20260322,20,0,,Rhode,Marque tendance,0,2026-03-22,2026,3,mars
+10,20260322,39,0,,Sephora,Enseigne étudiée,1,2026-03-22,2026,3,mars
+2,20260329,7,0,,Fenty Beauty,LVMH,0,2026-03-29,2026,3,mars
+3,20260329,2,0,,Haus Labs,Marque tendance,0,2026-03-29,2026,3,mars
+4,20260329,13,0,,Huda Beauty,Marque tendance,0,2026-03-29,2026,3,mars
+5,20260329,0,0,,Kylie Cosmetics,Marque tendance,0,2026-03-29,2026,3,mars
+7,20260329,4,0,,Makeup By Mario,Marque tendance,0,2026-03-29,2026,3,mars
+8,20260329,9,0,,Rare Beauty,Marque tendance,0,2026-03-29,2026,3,mars
+9,20260329,16,0,,Rhode,Marque tendance,0,2026-03-29,2026,3,mars
+10,20260329,40,0,,Sephora,Enseigne étudiée,1,2026-03-29,2026,3,mars
+2,20260405,7,0,,Fenty Beauty,LVMH,0,2026-04-05,2026,4,avril
+3,20260405,2,0,,Haus Labs,Marque tendance,0,2026-04-05,2026,4,avril
+4,20260405,15,0,,Huda Beauty,Marque tendance,0,2026-04-05,2026,4,avril
+5,20260405,2,0,,Kylie Cosmetics,Marque tendance,0,2026-04-05,2026,4,avril
+7,20260405,4,0,,Makeup By Mario,Marque tendance,0,2026-04-05,2026,4,avril
+8,20260405,6,0,,Rare Beauty,Marque tendance,0,2026-04-05,2026,4,avril
+9,20260405,19,0,,Rhode,Marque tendance,0,2026-04-05,2026,4,avril
+10,20260405,40,0,,Sephora,Enseigne étudiée,1,2026-04-05,2026,4,avril
+2,20260412,5,0,,Fenty Beauty,LVMH,0,2026-04-12,2026,4,avril
+3,20260412,3,0,,Haus Labs,Marque tendance,0,2026-04-12,2026,4,avril
+4,20260412,13,0,,Huda Beauty,Marque tendance,0,2026-04-12,2026,4,avril
+5,20260412,2,0,,Kylie Cosmetics,Marque tendance,0,2026-04-12,2026,4,avril
+7,20260412,3,0,,Makeup By Mario,Marque tendance,0,2026-04-12,2026,4,avril
+8,20260412,11,0,,Rare Beauty,Marque tendance,0,2026-04-12,2026,4,avril
+9,20260412,33,0,,Rhode,Marque tendance,0,2026-04-12,2026,4,avril
+10,20260412,45,0,,Sephora,Enseigne étudiée,1,2026-04-12,2026,4,avril
+2,20260419,7,0,,Fenty Beauty,LVMH,0,2026-04-19,2026,4,avril
+3,20260419,3,0,,Haus Labs,Marque tendance,0,2026-04-19,2026,4,avril
+4,20260419,14,0,,Huda Beauty,Marque tendance,0,2026-04-19,2026,4,avril
+5,20260419,0,0,,Kylie Cosmetics,Marque tendance,0,2026-04-19,2026,4,avril
+7,20260419,4,0,,Makeup By Mario,Marque tendance,0,2026-04-19,2026,4,avril
+8,20260419,17,0,,Rare Beauty,Marque tendance,0,2026-04-19,2026,4,avril
+9,20260419,36,0,,Rhode,Marque tendance,0,2026-04-19,2026,4,avril
+10,20260419,54,0,,Sephora,Enseigne étudiée,1,2026-04-19,2026,4,avril
+2,20260426,6,0,,Fenty Beauty,LVMH,0,2026-04-26,2026,4,avril
+3,20260426,2,0,,Haus Labs,Marque tendance,0,2026-04-26,2026,4,avril
+4,20260426,13,0,,Huda Beauty,Marque tendance,0,2026-04-26,2026,4,avril
+5,20260426,2,0,,Kylie Cosmetics,Marque tendance,0,2026-04-26,2026,4,avril
+7,20260426,2,0,,Makeup By Mario,Marque tendance,0,2026-04-26,2026,4,avril
+8,20260426,12,0,,Rare Beauty,Marque tendance,0,2026-04-26,2026,4,avril
+9,20260426,26,0,,Rhode,Marque tendance,0,2026-04-26,2026,4,avril
+10,20260426,48,0,,Sephora,Enseigne étudiée,1,2026-04-26,2026,4,avril
+2,20260503,5,0,,Fenty Beauty,LVMH,0,2026-05-03,2026,5,mai
+3,20260503,2,0,,Haus Labs,Marque tendance,0,2026-05-03,2026,5,mai
+4,20260503,14,0,,Huda Beauty,Marque tendance,0,2026-05-03,2026,5,mai
+5,20260503,2,0,,Kylie Cosmetics,Marque tendance,0,2026-05-03,2026,5,mai
+7,20260503,3,0,,Makeup By Mario,Marque tendance,0,2026-05-03,2026,5,mai
+8,20260503,9,0,,Rare Beauty,Marque tendance,0,2026-05-03,2026,5,mai
+9,20260503,25,0,,Rhode,Marque tendance,0,2026-05-03,2026,5,mai
+10,20260503,34,0,,Sephora,Enseigne étudiée,1,2026-05-03,2026,5,mai
+2,20260510,6,0,,Fenty Beauty,LVMH,0,2026-05-10,2026,5,mai
+3,20260510,3,0,,Haus Labs,Marque tendance,0,2026-05-10,2026,5,mai
+4,20260510,17,0,,Huda Beauty,Marque tendance,0,2026-05-10,2026,5,mai
+5,20260510,2,0,,Kylie Cosmetics,Marque tendance,0,2026-05-10,2026,5,mai
+7,20260510,5,0,,Makeup By Mario,Marque tendance,0,2026-05-10,2026,5,mai
+8,20260510,10,0,,Rare Beauty,Marque tendance,0,2026-05-10,2026,5,mai
+9,20260510,28,0,,Rhode,Marque tendance,0,2026-05-10,2026,5,mai
+10,20260510,38,0,,Sephora,Enseigne étudiée,1,2026-05-10,2026,5,mai
+2,20260517,6,0,,Fenty Beauty,LVMH,0,2026-05-17,2026,5,mai
+3,20260517,3,0,,Haus Labs,Marque tendance,0,2026-05-17,2026,5,mai
+4,20260517,14,0,,Huda Beauty,Marque tendance,0,2026-05-17,2026,5,mai
+5,20260517,1,0,,Kylie Cosmetics,Marque tendance,0,2026-05-17,2026,5,mai
+7,20260517,3,0,,Makeup By Mario,Marque tendance,0,2026-05-17,2026,5,mai
+8,20260517,9,0,,Rare Beauty,Marque tendance,0,2026-05-17,2026,5,mai
+9,20260517,20,0,,Rhode,Marque tendance,0,2026-05-17,2026,5,mai
+10,20260517,40,0,,Sephora,Enseigne étudiée,1,2026-05-17,2026,5,mai
+2,20260524,4,0,,Fenty Beauty,LVMH,0,2026-05-24,2026,5,mai
+3,20260524,2,0,,Haus Labs,Marque tendance,0,2026-05-24,2026,5,mai
+4,20260524,14,0,,Huda Beauty,Marque tendance,0,2026-05-24,2026,5,mai
+5,20260524,1,0,,Kylie Cosmetics,Marque tendance,0,2026-05-24,2026,5,mai
+7,20260524,3,0,,Makeup By Mario,Marque tendance,0,2026-05-24,2026,5,mai
+8,20260524,8,0,,Rare Beauty,Marque tendance,0,2026-05-24,2026,5,mai
+9,20260524,17,0,,Rhode,Marque tendance,0,2026-05-24,2026,5,mai
+10,20260524,40,0,,Sephora,Enseigne étudiée,1,2026-05-24,2026,5,mai
+2,20260531,5,0,,Fenty Beauty,LVMH,0,2026-05-31,2026,5,mai
+3,20260531,2,0,,Haus Labs,Marque tendance,0,2026-05-31,2026,5,mai
+4,20260531,14,0,,Huda Beauty,Marque tendance,0,2026-05-31,2026,5,mai
+5,20260531,1,0,,Kylie Cosmetics,Marque tendance,0,2026-05-31,2026,5,mai
+7,20260531,3,0,,Makeup By Mario,Marque tendance,0,2026-05-31,2026,5,mai
+8,20260531,7,0,,Rare Beauty,Marque tendance,0,2026-05-31,2026,5,mai
+9,20260531,32,0,,Rhode,Marque tendance,0,2026-05-31,2026,5,mai
+10,20260531,43,0,,Sephora,Enseigne étudiée,1,2026-05-31,2026,5,mai
+2,20260607,5,0,,Fenty Beauty,LVMH,0,2026-06-07,2026,6,juin
+3,20260607,3,0,,Haus Labs,Marque tendance,0,2026-06-07,2026,6,juin
+4,20260607,18,0,,Huda Beauty,Marque tendance,0,2026-06-07,2026,6,juin
+5,20260607,2,0,,Kylie Cosmetics,Marque tendance,0,2026-06-07,2026,6,juin
+7,20260607,4,0,,Makeup By Mario,Marque tendance,0,2026-06-07,2026,6,juin
+8,20260607,7,0,,Rare Beauty,Marque tendance,0,2026-06-07,2026,6,juin
+9,20260607,51,0,,Rhode,Marque tendance,0,2026-06-07,2026,6,juin
+10,20260607,51,0,,Sephora,Enseigne étudiée,1,2026-06-07,2026,6,juin
+2,20260614,4,0,,Fenty Beauty,LVMH,0,2026-06-14,2026,6,juin
+3,20260614,3,0,,Haus Labs,Marque tendance,0,2026-06-14,2026,6,juin
+4,20260614,15,0,,Huda Beauty,Marque tendance,0,2026-06-14,2026,6,juin
+5,20260614,2,0,,Kylie Cosmetics,Marque tendance,0,2026-06-14,2026,6,juin
+7,20260614,3,0,,Makeup By Mario,Marque tendance,0,2026-06-14,2026,6,juin
+8,20260614,8,0,,Rare Beauty,Marque tendance,0,2026-06-14,2026,6,juin
+9,20260614,28,0,,Rhode,Marque tendance,0,2026-06-14,2026,6,juin
+10,20260614,47,0,,Sephora,Enseigne étudiée,1,2026-06-14,2026,6,juin
+2,20260621,4,0,Ouverture Sephora Docks Bruxsel,Fenty Beauty,LVMH,0,2026-06-21,2026,6,juin
+3,20260621,2,0,Ouverture Sephora Docks Bruxsel,Haus Labs,Marque tendance,0,2026-06-21,2026,6,juin
+4,20260621,12,0,Ouverture Sephora Docks Bruxsel,Huda Beauty,Marque tendance,0,2026-06-21,2026,6,juin
+5,20260621,0,0,Ouverture Sephora Docks Bruxsel,Kylie Cosmetics,Marque tendance,0,2026-06-21,2026,6,juin
+7,20260621,3,0,Ouverture Sephora Docks Bruxsel,Makeup By Mario,Marque tendance,0,2026-06-21,2026,6,juin
+8,20260621,8,0,Ouverture Sephora Docks Bruxsel,Rare Beauty,Marque tendance,0,2026-06-21,2026,6,juin
+9,20260621,23,0,Ouverture Sephora Docks Bruxsel,Rhode,Marque tendance,0,2026-06-21,2026,6,juin
+10,20260621,55,0,Ouverture Sephora Docks Bruxsel,Sephora,Enseigne étudiée,1,2026-06-21,2026,6,juin
+2,20260628,4,0,,Fenty Beauty,LVMH,0,2026-06-28,2026,6,juin
+3,20260628,4,0,,Haus Labs,Marque tendance,0,2026-06-28,2026,6,juin
+4,20260628,15,0,,Huda Beauty,Marque tendance,0,2026-06-28,2026,6,juin
+5,20260628,0,0,,Kylie Cosmetics,Marque tendance,0,2026-06-28,2026,6,juin
+7,20260628,4,0,,Makeup By Mario,Marque tendance,0,2026-06-28,2026,6,juin
+8,20260628,12,0,,Rare Beauty,Marque tendance,0,2026-06-28,2026,6,juin
+9,20260628,27,0,,Rhode,Marque tendance,0,2026-06-28,2026,6,juin
+10,20260628,88,0,,Sephora,Enseigne étudiée,1,2026-06-28,2026,6,juin
+2,20260705,4,0,Ouverture Sephora City2,Fenty Beauty,LVMH,0,2026-07-05,2026,7,juillet
+3,20260705,3,0,Ouverture Sephora City2,Haus Labs,Marque tendance,0,2026-07-05,2026,7,juillet
+4,20260705,13,0,Ouverture Sephora City2,Huda Beauty,Marque tendance,0,2026-07-05,2026,7,juillet
+5,20260705,1,0,Ouverture Sephora City2,Kylie Cosmetics,Marque tendance,0,2026-07-05,2026,7,juillet
+7,20260705,4,0,Ouverture Sephora City2,Makeup By Mario,Marque tendance,0,2026-07-05,2026,7,juillet
+8,20260705,16,0,Ouverture Sephora City2,Rare Beauty,Marque tendance,0,2026-07-05,2026,7,juillet
+9,20260705,28,0,Ouverture Sephora City2,Rhode,Marque tendance,0,2026-07-05,2026,7,juillet
+10,20260705,97,0,Ouverture Sephora City2,Sephora,Enseigne étudiée,1,2026-07-05,2026,7,juillet
+2,20260712,6,0,,Fenty Beauty,LVMH,0,2026-07-12,2026,7,juillet
+3,20260712,2,0,,Haus Labs,Marque tendance,0,2026-07-12,2026,7,juillet
+4,20260712,13,0,,Huda Beauty,Marque tendance,0,2026-07-12,2026,7,juillet
+5,20260712,2,0,,Kylie Cosmetics,Marque tendance,0,2026-07-12,2026,7,juillet
+7,20260712,2,0,,Makeup By Mario,Marque tendance,0,2026-07-12,2026,7,juillet
+8,20260712,10,0,,Rare Beauty,Marque tendance,0,2026-07-12,2026,7,juillet
+9,20260712,21,0,,Rhode,Marque tendance,0,2026-07-12,2026,7,juillet
+10,20260712,56,0,,Sephora,Enseigne étudiée,1,2026-07-12,2026,7,juillet
+2,20260719,4,0,,Fenty Beauty,LVMH,0,2026-07-19,2026,7,juillet
+3,20260719,2,0,,Haus Labs,Marque tendance,0,2026-07-19,2026,7,juillet
+4,20260719,13,0,,Huda Beauty,Marque tendance,0,2026-07-19,2026,7,juillet
+5,20260719,0,0,,Kylie Cosmetics,Marque tendance,0,2026-07-19,2026,7,juillet
+7,20260719,3,0,,Makeup By Mario,Marque tendance,0,2026-07-19,2026,7,juillet
+8,20260719,11,0,,Rare Beauty,Marque tendance,0,2026-07-19,2026,7,juillet
+9,20260719,22,0,,Rhode,Marque tendance,0,2026-07-19,2026,7,juillet
+10,20260719,65,0,,Sephora,Enseigne étudiée,1,2026-07-19,2026,7,juillet
+2,20260726,4,0,,Fenty Beauty,LVMH,0,2026-07-26,2026,7,juillet
+3,20260726,2,0,,Haus Labs,Marque tendance,0,2026-07-26,2026,7,juillet
+4,20260726,12,0,,Huda Beauty,Marque tendance,0,2026-07-26,2026,7,juillet
+5,20260726,0,0,,Kylie Cosmetics,Marque tendance,0,2026-07-26,2026,7,juillet
+7,20260726,2,0,,Makeup By Mario,Marque tendance,0,2026-07-26,2026,7,juillet
+8,20260726,11,0,,Rare Beauty,Marque tendance,0,2026-07-26,2026,7,juillet
+9,20260726,21,0,,Rhode,Marque tendance,0,2026-07-26,2026,7,juillet
+10,20260726,60,0,,Sephora,Enseigne étudiée,1,2026-07-26,2026,7,juillet
+2,20260802,6,0,,Fenty Beauty,LVMH,0,2026-08-02,2026,8,août
+3,20260802,2,0,,Haus Labs,Marque tendance,0,2026-08-02,2026,8,août
+4,20260802,13,0,,Huda Beauty,Marque tendance,0,2026-08-02,2026,8,août
+5,20260802,0,0,,Kylie Cosmetics,Marque tendance,0,2026-08-02,2026,8,août
+7,20260802,5,0,,Makeup By Mario,Marque tendance,0,2026-08-02,2026,8,août
+8,20260802,12,0,,Rare Beauty,Marque tendance,0,2026-08-02,2026,8,août
+9,20260802,27,0,,Rhode,Marque tendance,0,2026-08-02,2026,8,août
+10,20260802,67,0,,Sephora,Enseigne étudiée,1,2026-08-02,2026,8,août
+2,20260809,9,0,,Fenty Beauty,LVMH,0,2026-08-09,2026,8,août
+3,20260809,3,0,,Haus Labs,Marque tendance,0,2026-08-09,2026,8,août
+4,20260809,20,0,,Huda Beauty,Marque tendance,0,2026-08-09,2026,8,août
+5,20260809,2,0,,Kylie Cosmetics,Marque tendance,0,2026-08-09,2026,8,août
+7,20260809,7,0,,Makeup By Mario,Marque tendance,0,2026-08-09,2026,8,août
+8,20260809,26,0,,Rare Beauty,Marque tendance,0,2026-08-09,2026,8,août
+9,20260809,24,0,,Rhode,Marque tendance,0,2026-08-09,2026,8,août
+10,20260809,86,0,,Sephora,Enseigne étudiée,1,2026-08-09,2026,8,août
+2,20260816,21,0,,Fenty Beauty,LVMH,0,2026-08-16,2026,8,août
+3,20260816,3,0,,Haus Labs,Marque tendance,0,2026-08-16,2026,8,août
+4,20260816,30,0,,Huda Beauty,Marque tendance,0,2026-08-16,2026,8,août
+5,20260816,3,0,,Kylie Cosmetics,Marque tendance,0,2026-08-16,2026,8,août
+7,20260816,11,0,,Makeup By Mario,Marque tendance,0,2026-08-16,2026,8,août
+8,20260816,54,0,,Rare Beauty,Marque tendance,0,2026-08-16,2026,8,août
+9,20260816,22,0,,Rhode,Marque tendance,0,2026-08-16,2026,8,août
+10,20260816,75,0,,Sephora,Enseigne étudiée,1,2026-08-16,2026,8,août
+2,20260823,21,0,,Fenty Beauty,LVMH,0,2026-08-23,2026,8,août
+3,20260823,2,0,,Haus Labs,Marque tendance,0,2026-08-23,2026,8,août
+4,20260823,26,0,,Huda Beauty,Marque tendance,0,2026-08-23,2026,8,août
+5,20260823,4,0,,Kylie Cosmetics,Marque tendance,0,2026-08-23,2026,8,août
+7,20260823,9,0,,Makeup By Mario,Marque tendance,0,2026-08-23,2026,8,août
+8,20260823,44,0,,Rare Beauty,Marque tendance,0,2026-08-23,2026,8,août
+9,20260823,20,0,,Rhode,Marque tendance,0,2026-08-23,2026,8,août
+10,20260823,71,0,,Sephora,Enseigne étudiée,1,2026-08-23,2026,8,août
+2,20260830,43,1,,Fenty Beauty,LVMH,0,2026-08-30,2026,8,août
+3,20260830,7,1,,Haus Labs,Marque tendance,0,2026-08-30,2026,8,août
+4,20260830,37,1,,Huda Beauty,Marque tendance,0,2026-08-30,2026,8,août
+5,20260830,4,1,,Kylie Cosmetics,Marque tendance,0,2026-08-30,2026,8,août
+7,20260830,14,1,,Makeup By Mario,Marque tendance,0,2026-08-30,2026,8,août
+8,20260830,53,1,,Rare Beauty,Marque tendance,0,2026-08-30,2026,8,août
+9,20260830,19,1,,Rhode,Marque tendance,0,2026-08-30,2026,8,août
+10,20260830,100,1,,Sephora,Enseigne étudiée,1,2026-08-30,2026,8,août
+2,20260906,34,0,,Fenty Beauty,LVMH,0,2026-09-06,2026,9,septembre
+3,20260906,7,0,,Haus Labs,Marque tendance,0,2026-09-06,2026,9,septembre
+4,20260906,28,0,,Huda Beauty,Marque tendance,0,2026-09-06,2026,9,septembre
+5,20260906,3,0,,Kylie Cosmetics,Marque tendance,0,2026-09-06,2026,9,septembre
+7,20260906,9,0,,Makeup By Mario,Marque tendance,0,2026-09-06,2026,9,septembre
+8,20260906,40,0,,Rare Beauty,Marque tendance,0,2026-09-06,2026,9,septembre
+9,20260906,28,0,,Rhode,Marque tendance,0,2026-09-06,2026,9,septembre
+10,20260906,78,0,,Sephora,Enseigne étudiée,1,2026-09-06,2026,9,septembre
+2,20260913,13,0,,Fenty Beauty,LVMH,0,2026-09-13,2026,9,septembre
+3,20260913,3,0,,Haus Labs,Marque tendance,0,2026-09-13,2026,9,septembre
+4,20260913,15,0,,Huda Beauty,Marque tendance,0,2026-09-13,2026,9,septembre
+5,20260913,0,0,,Kylie Cosmetics,Marque tendance,0,2026-09-13,2026,9,septembre
+7,20260913,4,0,,Makeup By Mario,Marque tendance,0,2026-09-13,2026,9,septembre
+8,20260913,14,0,,Rare Beauty,Marque tendance,0,2026-09-13,2026,9,septembre
+9,20260913,24,0,,Rhode,Marque tendance,0,2026-09-13,2026,9,septembre
+10,20260913,58,0,,Sephora,Enseigne étudiée,1,2026-09-13,2026,9,septembre
+2,20260920,20,0,Ouverture Sephora Médiacité (Liège),Fenty Beauty,LVMH,0,2026-09-20,2026,9,septembre
+3,20260920,3,0,Ouverture Sephora Médiacité (Liège),Haus Labs,Marque tendance,0,2026-09-20,2026,9,septembre
+4,20260920,18,0,Ouverture Sephora Médiacité (Liège),Huda Beauty,Marque tendance,0,2026-09-20,2026,9,septembre
+5,20260920,2,0,Ouverture Sephora Médiacité (Liège),Kylie Cosmetics,Marque tendance,0,2026-09-20,2026,9,septembre
+7,20260920,6,0,Ouverture Sephora Médiacité (Liège),Makeup By Mario,Marque tendance,0,2026-09-20,2026,9,septembre
+8,20260920,19,0,Ouverture Sephora Médiacité (Liège),Rare Beauty,Marque tendance,0,2026-09-20,2026,9,septembre
+9,20260920,22,0,Ouverture Sephora Médiacité (Liège),Rhode,Marque tendance,0,2026-09-20,2026,9,septembre
+10,20260920,73,0,Ouverture Sephora Médiacité (Liège),Sephora,Enseigne étudiée,1,2026-09-20,2026,9,septembre
+2,20260927,15,0,,Fenty Beauty,LVMH,0,2026-09-27,2026,9,septembre
+3,20260927,3,0,,Haus Labs,Marque tendance,0,2026-09-27,2026,9,septembre
+4,20260927,17,0,,Huda Beauty,Marque tendance,0,2026-09-27,2026,9,septembre
+5,20260927,2,0,,Kylie Cosmetics,Marque tendance,0,2026-09-27,2026,9,septembre
+7,20260927,4,0,,Makeup By Mario,Marque tendance,0,2026-09-27,2026,9,septembre
+8,20260927,15,0,,Rare Beauty,Marque tendance,0,2026-09-27,2026,9,septembre
+9,20260927,35,0,,Rhode,Marque tendance,0,2026-09-27,2026,9,septembre
+10,20260927,57,0,,Sephora,Enseigne étudiée,1,2026-09-27,2026,9,septembre
+2,20261004,6,0,,Fenty Beauty,LVMH,0,2026-10-04,2026,10,octobre
+3,20261004,2,0,,Haus Labs,Marque tendance,0,2026-10-04,2026,10,octobre
+4,20261004,12,0,,Huda Beauty,Marque tendance,0,2026-10-04,2026,10,octobre
+5,20261004,0,0,,Kylie Cosmetics,Marque tendance,0,2026-10-04,2026,10,octobre
+7,20261004,2,0,,Makeup By Mario,Marque tendance,0,2026-10-04,2026,10,octobre
+8,20261004,10,0,,Rare Beauty,Marque tendance,0,2026-10-04,2026,10,octobre
+9,20261004,31,0,,Rhode,Marque tendance,0,2026-10-04,2026,10,octobre
+10,20261004,42,0,,Sephora,Enseigne étudiée,1,2026-10-04,2026,10,octobre
+2,20261011,6,0,,Fenty Beauty,LVMH,0,2026-10-11,2026,10,octobre
+3,20261011,3,0,,Haus Labs,Marque tendance,0,2026-10-11,2026,10,octobre
+4,20261011,16,0,,Huda Beauty,Marque tendance,0,2026-10-11,2026,10,octobre
+5,20261011,2,0,,Kylie Cosmetics,Marque tendance,0,2026-10-11,2026,10,octobre
+7,20261011,3,0,,Makeup By Mario,Marque tendance,0,2026-10-11,2026,10,octobre
+8,20261011,10,0,,Rare Beauty,Marque tendance,0,2026-10-11,2026,10,octobre
+9,20261011,33,0,,Rhode,Marque tendance,0,2026-10-11,2026,10,octobre
+10,20261011,46,0,,Sephora,Enseigne étudiée,1,2026-10-11,2026,10,octobre
+2,20261018,7,0,,Fenty Beauty,LVMH,0,2026-10-18,2026,10,octobre
+3,20261018,3,0,,Haus Labs,Marque tendance,0,2026-10-18,2026,10,octobre
+4,20261018,20,0,,Huda Beauty,Marque tendance,0,2026-10-18,2026,10,octobre
+5,20261018,4,0,,Kylie Cosmetics,Marque tendance,0,2026-10-18,2026,10,octobre
+7,20261018,3,0,,Makeup By Mario,Marque tendance,0,2026-10-18,2026,10,octobre
+8,20261018,12,0,,Rare Beauty,Marque tendance,0,2026-10-18,2026,10,octobre
+9,20261018,30,0,,Rhode,Marque tendance,0,2026-10-18,2026,10,octobre
+10,20261018,47,0,,Sephora,Enseigne étudiée,1,2026-10-18,2026,10,octobre
+2,20261025,11,0,,Fenty Beauty,LVMH,0,2026-10-25,2026,10,octobre
+3,20261025,3,0,,Haus Labs,Marque tendance,0,2026-10-25,2026,10,octobre
+4,20261025,25,0,,Huda Beauty,Marque tendance,0,2026-10-25,2026,10,octobre
+5,20261025,3,0,,Kylie Cosmetics,Marque tendance,0,2026-10-25,2026,10,octobre
+7,20261025,3,0,,Makeup By Mario,Marque tendance,0,2026-10-25,2026,10,octobre
+8,20261025,16,0,,Rare Beauty,Marque tendance,0,2026-10-25,2026,10,octobre
+9,20261025,33,0,,Rhode,Marque tendance,0,2026-10-25,2026,10,octobre
+10,20261025,45,0,,Sephora,Enseigne étudiée,1,2026-10-25,2026,10,octobre
+2,20261101,7,0,,Fenty Beauty,LVMH,0,2026-11-01,2026,11,novembre
+3,20261101,3,0,,Haus Labs,Marque tendance,0,2026-11-01,2026,11,novembre
+4,20261101,22,0,,Huda Beauty,Marque tendance,0,2026-11-01,2026,11,novembre
+5,20261101,3,0,,Kylie Cosmetics,Marque tendance,0,2026-11-01,2026,11,novembre
+7,20261101,4,0,,Makeup By Mario,Marque tendance,0,2026-11-01,2026,11,novembre
+8,20261101,10,0,,Rare Beauty,Marque tendance,0,2026-11-01,2026,11,novembre
+9,20261101,35,0,,Rhode,Marque tendance,0,2026-11-01,2026,11,novembre
+10,20261101,47,0,,Sephora,Enseigne étudiée,1,2026-11-01,2026,11,novembre

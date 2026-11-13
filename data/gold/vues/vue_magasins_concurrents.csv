@@ -1,0 +1,131 @@
+magasin_id,enseigne_id,ville_id,ville_magasin,nom_magasin,code_postal,latitude,longitude,is_ville_cible,has_gps,nb_magasins,enseigne,groupe
+1,2,,Alkmaar,Alkmaar Langestraat,1811 JG,52.6308724,4.7491094,0,1,1,Douglas,Douglas Group
+2,2,,Almelo,Almelo Galerij,7607 HR,52.3556319,6.6647784,0,1,1,Douglas,Douglas Group
+3,2,,Almere,Almere De Diagonaal,1315 XD,52.3703854,5.2204424,0,1,1,Douglas,Douglas Group
+4,2,,Alphen a/d Rijn,Alphen aan den Rijn De Aarhof,2406 CE,52.1292154,4.6639401,0,1,1,Douglas,Douglas Group
+5,2,,Amersfoort,Amersfoort Emiclaerhof,3823 EM,52.1860697,5.3965126,0,1,1,Douglas,Douglas Group
+6,2,,Amersfoort,Amersfoort Utrechtsestraat,3811 LB,52.1540218,5.3855962,0,1,1,Douglas,Douglas Group
+7,2,,Amstelveen,Amstelveen Binnenhof,1181 ZJ,52.3013419,4.8673322,0,1,1,Douglas,Douglas Group
+8,2,1,Amsterdam,Amsterdam Beethovenstraat,1077 JH,52.3497284,4.8775646,1,1,1,Douglas,Douglas Group
+9,2,1,Amsterdam,Amsterdam Buikslotermeerplein,1025 XC,52.3986009,4.939237,1,1,1,Douglas,Douglas Group
+10,2,1,Amsterdam,Amsterdam Ferdinand Bolstraat,1072 LN,52.354702,4.890187,1,1,1,Douglas,Douglas Group
+11,2,1,Amsterdam,Amsterdam Gelderlandplein,1082 LV,52.33158,4.877046,1,1,1,Douglas,Douglas Group
+12,2,1,Amsterdam,Amsterdam Kalverstraat,1012 NZ,52.3705794,4.8918804,1,1,1,Douglas,Douglas Group
+13,2,1,Amsterdam,Amsterdam Nieuwendijk,1012 MV,52.3747492,4.893513,1,1,1,Douglas,Douglas Group
+14,2,1,Amsterdam,Amsterdam Oostpoort,1093 NH,52.3568867,4.9297044,1,1,1,Douglas,Douglas Group
+15,2,1,Amsterdam,Amsterdam Osdorpplein,1068 TC,52.3593084,4.8048825,1,1,1,Douglas,Douglas Group
+16,2,1,Amsterdam,Amsterdam PC Hooftstraat,1071 BS,52.3595549,4.878605,1,1,1,Douglas,Douglas Group
+17,2,,Apeldoorn,Apeldoorn Hoofdstraat,7311 JZ,52.2146436,5.9619466,0,1,1,Douglas,Douglas Group
+18,2,,Arnhem,Arnhem Ketelstraat,6811 CZ,51.981803,5.9091687,0,1,1,Douglas,Douglas Group
+19,2,,Arnhem,Arnhem Kronenburgpassage,6831 ER,51.9586067,5.8972618,0,1,1,Douglas,Douglas Group
+20,2,,Assen,Assen Mercurius Centrum,9401 DL,52.9961257,6.5597247,0,1,1,Douglas,Douglas Group
+21,2,,Baarn,Baarn Laanstraat,3743 BB,52.2116043,5.2880801,0,1,1,Douglas,Douglas Group
+22,2,,Bergen op Zoom,Bergen op Zoom,4611 PJ,51.4948439,4.2884882,0,1,1,Douglas,Douglas Group
+23,2,,Beverwijk,Beverwijk Breestraat,1941 EK,52.481346,4.6568654,0,1,1,Douglas,Douglas Group
+24,2,,Breda,Breda Eindstraat,4811 KL,51.586463,4.7760494,0,1,1,Douglas,Douglas Group
+25,2,,Bussum,Bussum Nassaulaan,1404 CM,52.2751607,5.1611852,0,1,1,Douglas,Douglas Group
+26,2,,Capelle a/d IJssel,Capelle aan den IJssel De Koperwiek,2903 HA,51.931645,4.589229,0,1,1,Douglas,Douglas Group
+27,2,,Delft,Delft Bastiaansplein,2611 DC,52.0086948,4.3638558,0,1,1,Douglas,Douglas Group
+28,2,,Den Bosch,Den Bosch Hooge Steenweg,5211 JP,51.6899791,5.3017722,0,1,1,Douglas,Douglas Group
+29,2,4,La Haye,Den Haag Frederik Hendriklaan,2582 BK,52.0917886,4.2754236,1,1,1,Douglas,Douglas Group
+30,2,4,La Haye,Den Haag Hoytemastraat,2596 ER,52.0924728,4.3245684,1,1,1,Douglas,Douglas Group
+31,2,4,La Haye,Den Haag Passage,2511 AE,52.0772579,4.3125552,1,1,1,Douglas,Douglas Group
+32,2,4,La Haye,Den Haag Venestraat,2511 AS,52.0772619,4.310155,1,1,1,Douglas,Douglas Group
+33,2,,Den Helder,Den Helder Spoorstraat,1781 JB,52.9593373,4.7622416,0,1,1,Douglas,Douglas Group
+34,2,,Deventer,Deventer Lange Bisschopsstraat,7411 KJ,52.2537324,6.1578611,0,1,1,Douglas,Douglas Group
+35,2,,Diemen,Diemen Diemerplein,1111 JD,52.3419189,4.9624126,0,1,1,Douglas,Douglas Group
+36,2,,Doetinchem,Doetinchem Hamburgerstraat,7001 AK,51.965235,6.2891907,0,1,1,Douglas,Douglas Group
+37,2,,Dordrecht,Dordrecht Drievriendenhof,3311 NG,51.8138535,4.6690101,0,1,1,Douglas,Douglas Group
+38,2,,Bovenkarspel,Bovenkarspel de Middend,1611 KV,52.6971965,5.2344997,0,1,1,Douglas,Douglas Group
+39,2,,Zaltbommel,Zaltbommel,5301 AE,51.812683,5.2485608,0,1,1,Douglas,Douglas Group
+40,2,,Drachten,Drachten Zuiderbuurt,9203 CS,53.1064004,6.0984339,0,1,1,Douglas,Douglas Group
+41,2,,Ede,Ede Grotestraat,6711 AM,52.0448005,5.6703714,0,1,1,Douglas,Douglas Group
+42,2,,Eindhoven,Eindhoven Demer,5611 AS,51.4398612,5.4770893,0,1,1,Douglas,Douglas Group
+43,2,,Eindhoven,Eindhoven Heuvel Galerie,5611 DK,51.4393637,5.4794283,0,1,1,Douglas,Douglas Group
+44,2,,Eindhoven,Eindhoven Woensel,5625 AG,51.4689209,5.4765402,0,1,1,Douglas,Douglas Group
+45,2,,Emmen,Emmen De Vlinder,7811 DH,52.7841229,6.8946944,0,1,1,Douglas,Douglas Group
+46,2,,Enschede,Enschede Kalanderstraat,7511 HX,52.2194557,6.8989714,0,1,1,Douglas,Douglas Group
+47,2,,Goes,Goes Lange Kerkstraat,4461 JH,51.5036488,3.8910089,0,1,1,Douglas,Douglas Group
+48,2,,Gorinchem,Gorinchem Gasthuisstraat,4201 JP,51.8304227,4.9743032,0,1,1,Douglas,Douglas Group
+49,2,,Groningen,Groningen Guldenstraat,9712 CG,53.2184785,6.5652047,0,1,1,Douglas,Douglas Group
+50,2,,Haarlem,Haarlem Grote Markt,2011 RC,52.3816888,4.635539,0,1,1,Douglas,Douglas Group
+51,2,,Haren,Haren Brinkhorst,9751 AS,53.1734794,6.6048783,0,1,1,Douglas,Douglas Group
+52,2,,Heemstede,Heemstede Binnenweg,2101 JG,52.3551951,4.6206554,0,1,1,Douglas,Douglas Group
+53,2,,Heerhugowaard,Heerhugowaard Middenwaard,1703 SE,52.6630238,4.8296708,0,1,1,Douglas,Douglas Group
+54,2,,Heerlen,Heerlen Saroleastraat,6411 LT,50.8881464,5.9783318,0,1,1,Douglas,Douglas Group
+55,2,,Hellevoetsluis,Hellevoetsluis Struytse Hoeck,3223 DE,51.8333988,4.1455026,0,1,1,Douglas,Douglas Group
+56,2,,Helmond,Helmond Elzas Passage,5701 RX,51.4796098,5.6547398,0,1,1,Douglas,Douglas Group
+57,2,,Hengelo,Hengelo Enschedesestraat,7551 EM,52.264752,6.7942951,0,1,1,Douglas,Douglas Group
+58,2,,Hilversum,Hilversum Kerkstraat,1211 CP,52.2255546,5.1753855,0,1,1,Douglas,Douglas Group
+59,2,,Hoofddorp,Hoofddorp Marktlaan,2132 DL,52.303033,4.692039,0,1,1,Douglas,Douglas Group
+60,2,,Hoogeveen,Hoogeveen Hoofdstraat,7901 JW,52.7234491,6.4774914,0,1,1,Douglas,Douglas Group
+61,2,,Hoorn,Hoorn Nieuwsteeg,1621 ED,52.6409294,5.0571133,0,1,1,Douglas,Douglas Group
+62,2,,Katwijk aan Zee,Katwijk aan Zee Voorstraat,2225 ER,52.20416,4.3949252,0,1,1,Douglas,Douglas Group
+63,2,,Laren,Laren Zevenend,1251 RK,52.2544658,5.227326,0,1,1,Douglas,Douglas Group
+64,2,,Leeuwarden,Leeuwarden Nieuwestad,8911 DB,53.2003406,5.7954262,0,1,1,Douglas,Douglas Group
+65,2,,Leiden,Leiden Haarlemmerstraat,2312 DN,52.1600888,4.4922607,0,1,1,Douglas,Douglas Group
+66,2,,Leidschendam,Leidschendam Westfield,2262 AC,52.0883581,4.3859999,0,1,1,Douglas,Douglas Group
+67,2,,Maastricht,Maastricht Grote Staat,6211 CW,50.8500323,5.6910292,0,1,1,Douglas,Douglas Group
+68,2,,Middelburg,Middelburg Lange Delft,4331 AL,51.4985303,3.6146697,0,1,1,Douglas,Douglas Group
+69,2,,Nieuwegein,Nieuwegein Cityplaza,3431 LM,52.0270924,5.1613848,0,1,1,Douglas,Douglas Group
+70,2,,Nijmegen,Nijmegen Burchtstraat,6511 RD,51.847131,5.8650535,0,1,1,Douglas,Douglas Group
+71,2,,Nijmegen,Nijmegen Marikenstraat,6511 PX,51.8454587,5.8659901,0,1,1,Douglas,Douglas Group
+72,2,,Oldenzaal,Oldenzaal Driehoek,7571 ET,52.313788,6.9278461,0,1,1,Douglas,Douglas Group
+73,2,,Oosterhout,Oosterhout Arendstraat,4901 JK,51.6438652,4.857962,0,1,1,Douglas,Douglas Group
+74,2,,Oss,Oss Heuvel,5341 CW,51.7698174,5.5246834,0,1,1,Douglas,Douglas Group
+75,2,,Panningen,Panningen Markt,5981 AP,51.3293374,5.9817848,0,1,1,Douglas,Douglas Group
+76,2,,Purmerend,Purmerend Hoogstraat,1441 BC,52.5093332,4.9454115,0,1,1,Douglas,Douglas Group
+77,2,,Ridderkerk,Ridderkerk Jorishof,2981 GD,51.8703774,4.6006688,0,1,1,Douglas,Douglas Group
+78,2,,Rijswijk,Rijswijk Bogaard,2284 DK,52.0361496,4.3159201,0,1,1,Douglas,Douglas Group
+79,2,,Roermond,Roermond Steenweg,6041 EV,51.1936647,5.9875713,0,1,1,Douglas,Douglas Group
+80,2,,Roosendaal,Roosendaal Nieuwe Markt,4701 AA,51.5319042,4.4554486,0,1,1,Douglas,Douglas Group
+81,2,2,Rotterdam,Rotterdam Alexandrium,3067 LX,51.9507662,4.553962,1,1,1,Douglas,Douglas Group
+82,2,2,Rotterdam,Rotterdam Beurstraverse,3011 AE,51.9204054,4.4803439,1,1,1,Douglas,Douglas Group
+83,2,2,Rotterdam,Rotterdam Lijnbaan,3012 EN,51.9186266,4.4778862,1,1,1,Douglas,Douglas Group
+84,2,2,Rotterdam,Rotterdam Weissenbruchlaan,3054 LS,51.9570117,4.4962775,1,1,1,Douglas,Douglas Group
+85,2,2,Rotterdam,Rotterdam Zuidplein,3083 BH,51.886951,4.4895198,1,1,1,Douglas,Douglas Group
+86,2,,Schagen,Schagen Makado Centrum,1741 JA,52.7878084,4.7981043,0,1,1,Douglas,Douglas Group
+87,2,,Sittard,Sittard Limbrichterstraat,6131 ED,50.9981582,5.8676462,0,1,1,Douglas,Douglas Group
+88,2,,Sluis,Sluis Kapellestraat,4524 CZ,51.3074247,3.3871288,0,1,1,Douglas,Douglas Group
+89,2,,Spijkenisse,Spijkenisse Uitstraat,3201 EN,51.8490326,4.3287121,0,1,1,Douglas,Douglas Group
+90,2,,Tiel,Tiel Waterstraat,4001 AN,51.8878862,5.4344535,0,1,1,Douglas,Douglas Group
+91,2,,Tilburg,Tilburg Heuvelstraat,5038 AA,51.5570028,5.0886306,0,1,1,Douglas,Douglas Group
+92,2,,Uden,Uden Marktstraat,5401 GH,51.6577294,5.6135342,0,1,1,Douglas,Douglas Group
+93,2,3,Utrecht,Utrecht Hoog Catharijne,3511 WR,52.0908025,5.111119,1,1,1,Douglas,Douglas Group
+94,2,3,Utrecht,Utrecht Overvecht,3562 KB,52.1134249,5.1115752,1,1,1,Douglas,Douglas Group
+95,2,3,Utrecht,Utrecht Vredenburg,3511 BA,52.0921065,5.1152644,1,1,1,Douglas,Douglas Group
+96,2,,Veenendaal,Veenendaal Hoofdstraat,3901 AA,52.026326,5.554921,0,1,1,Douglas,Douglas Group
+97,2,,Veghel,Veghel Hoofdstraat,5461 JG,51.6163986,5.5447989,0,1,1,Douglas,Douglas Group
+98,2,,Veldhoven,Veldhoven Citycentrum,5501 JK,51.4193005,5.4059401,0,1,1,Douglas,Douglas Group
+99,2,,Velp,Velp Hoofdstraat,6881 TD,51.9956388,5.9706126,0,1,1,Douglas,Douglas Group
+100,2,,Venlo,Venlo Vleesstraat,5911 JC,51.3695262,6.1692594,0,1,1,Douglas,Douglas Group
+101,2,,Waalwijk,Waalwijk Stationstraat,5141 GE,51.6897879,5.0665313,0,1,1,Douglas,Douglas Group
+102,2,,Wassenaar,Wassenaar Molenstraat,2242 HT,52.1430349,4.3945012,0,1,1,Douglas,Douglas Group
+103,2,,Weert,Weert Langstraat,6001 CS,51.2522977,5.706503,0,1,1,Douglas,Douglas Group
+104,2,,Wijchen,Wijchen Markt,6602 AN,51.8073163,5.7266129,0,1,1,Douglas,Douglas Group
+105,2,,Woerden,Woerden Kerkplein,3441 BG,52.085639,4.883437,0,1,1,Douglas,Douglas Group
+106,2,,Zaandam,Zaandam Gedempte Gracht,1506 CG,52.4395378,4.8216547,0,1,1,Douglas,Douglas Group
+107,2,,Zeist,Zeist Slotlaan,3701 GS,52.0853751,5.244129,0,1,1,Douglas,Douglas Group
+108,2,,Zoetermeer,Zoetermeer Stadshart,2711 HC,52.0616347,4.4912968,0,1,1,Douglas,Douglas Group
+109,2,,Zutphen,Zutphen Beukerstraat,7201 LA,52.1421868,6.1966676,0,1,1,Douglas,Douglas Group
+110,2,,Zwolle,Zwolle Diezerstraat,8011 RA,52.5125087,6.0936037,0,1,1,Douglas,Douglas Group
+111,2,,Sneek,Sneek Schaapmarktplein,8601 CE,53.0325391,5.6614022,0,1,1,Douglas,Douglas Group
+112,3,1,Amsterdam,ICI Paris XL Beethovenstraat 34,1077 JH,,,1,0,1,ICI Paris XL,A.S. Watson
+113,3,1,Amsterdam,ICI Paris XL Buikslotermeerplein 72,1025 EW,,,1,0,1,ICI Paris XL,A.S. Watson
+114,3,1,Amsterdam,ICI Paris XL Gelderlandplein 163-165,1082 LW,,,1,0,1,ICI Paris XL,A.S. Watson
+115,3,1,Amsterdam,ICI Paris XL Nieuwendijk 233-235,1012 MH,,,1,0,1,ICI Paris XL,A.S. Watson
+116,3,1,Amsterdam,ICI Paris XL Osdorpplein 378,1068 EV,,,1,0,1,ICI Paris XL,A.S. Watson
+117,3,1,Amsterdam,ICI Paris XL Bijlmerplein 873,1102 MG,,,1,0,1,ICI Paris XL,A.S. Watson
+118,3,2,Rotterdam,ICI Paris XL Lijnbaan 138,3012 ER,,,1,0,1,ICI Paris XL,A.S. Watson
+119,3,2,Rotterdam,ICI Paris XL Poolsterstraat 98,3067 LX,,,1,0,1,ICI Paris XL,A.S. Watson
+120,3,2,Rotterdam,ICI Paris XL Streksingel 67b,3054 HB,,,1,0,1,ICI Paris XL,A.S. Watson
+121,3,2,Rotterdam,ICI Paris XL Zuidplein Hoog 827,3083 BK,,,1,0,1,ICI Paris XL,A.S. Watson
+122,3,2,Rotterdam,ICI Paris XL Zwart Janstraat 103-105,3035 AN,,,1,0,1,ICI Paris XL,A.S. Watson
+123,3,4,La Haye,ICI Paris XL Fahrenheitstraat 623,2561 DC,,,1,0,1,ICI Paris XL,A.S. Watson
+124,3,4,La Haye,ICI Paris XL Frederik Hendriklaan 108,2582 BG,,,1,0,1,ICI Paris XL,A.S. Watson
+125,3,4,La Haye,ICI Paris XL Grote Marktstraat 38,2511 BJ,,,1,0,1,ICI Paris XL,A.S. Watson
+126,3,4,La Haye,ICI Paris XL Leyweg 657n,2545 GK,,,1,0,1,ICI Paris XL,A.S. Watson
+127,3,4,La Haye,ICI Paris XL Passage 69,2511 AC,,,1,0,1,ICI Paris XL,A.S. Watson
+128,3,3,Utrecht,ICI Paris XL Parijsboulevard 32,3541 CX,,,1,0,1,ICI Paris XL,A.S. Watson
+129,3,3,Utrecht,ICI Paris XL Roelantdreef 236,3562 KH,,,1,0,1,ICI Paris XL,A.S. Watson
+130,3,3,Utrecht,ICI Paris XL Vredenburg 2,3511 BA,,,1,0,1,ICI Paris XL,A.S. Watson
