@@ -36,7 +36,7 @@
 
 ## 0. Liens Utiles
 
-- **Présentation Comex (Slides) :** [Accéder aux Slides Google Drive]([https://drive.google.com/file/d/1TfmOHh7LE4O_NbHXBt0oaorWcPC0q3Fg/view?usp=drive_link](https://drive.google.com/file/d/1TfmOHh7LE4O_NbHXBt0oaorWcPC0q3Fg/view?usp=drive_link))
+- **Présentation Comex (Slides) :** [https://drive.google.com/file/d/1TfmOHh7LE4O_NbHXBt0oaorWcPC0q3Fg/view?usp=drive_link]
 
 - **Dashboard Décisionnel (Looker Studio) :** [Accéder au rapport Looker Studio]([https://datastudio.google.com/reporting/2d9636c3-64c4-4e9f-badd-b18e6e0c38f8](https://datastudio.google.com/reporting/2d9636c3-64c4-4e9f-badd-b18e6e0c38f8))
 
