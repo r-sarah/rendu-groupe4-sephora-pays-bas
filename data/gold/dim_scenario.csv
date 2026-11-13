@@ -1,0 +1,4 @@
+scenario_id,scenario,ordre,part_marche_visee_2029_pct,taux_marge_france_pct,nb_etp,charges_patronales_pct,cout_transport_eur_km,cout_ouverture_eur_m2,surface_m2,salaire_brut_mensuel_eur,pecule_vacances_pct,montee_en_charge,entrepot,livraisons_par_an
+1,Pessimiste,1,1.5,38.0,7,35,2.0,1200,270,2750,8,2027 : 60 % / 2028 : 85 % / 2029 : 100 %,Saran (Loiret),52
+2,Central,2,3.0,44.0,6,30,1.8,1000,270,2750,8,2027 : 60 % / 2028 : 85 % / 2029 : 100 %,Saran (Loiret),52
+3,Optimiste,3,5.0,48.0,5,25,1.6,800,270,2750,8,2027 : 60 % / 2028 : 85 % / 2029 : 100 %,Saran (Loiret),52

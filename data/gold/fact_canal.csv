@@ -1,0 +1,9 @@
+canal_id,enseigne_id,date_id,ventes_meur,part_magasins_physiques_pct,part_marche_total_pct,statut,source
+1,,20200101,1364,41.7,36.9,Publié,CBS (2022)
+2,3,20200101,393,12.0,10.6,Estimé (prorata magasins 141/252),CBS (2022) + localisateur iciparisxl.nl
+2,2,20200101,309,9.4,8.4,Estimé (prorata magasins 111/252),CBS (2022) + localisateur douglas.nl
+3,,20200101,669,20.4,18.1,Publié,CBS (2022)
+4,,20200101,231,7.1,6.2,Publié,CBS (2022)
+5,,20200101,108,3.3,2.9,Publié,CBS (2022)
+6,,20200101,199,6.1,5.4,Calculé (total - canaux listés),CBS (2022)
+7,,20200101,427,,11.5,Publié,CBS (2022)

@@ -1,0 +1,9 @@
+canal_id,canal,enseigne,ventes_meur_2020,part_magasins_physiques_pct,part_marche_total_pct,est_magasin_physique,statut,source
+1,Drogueries,,1364,41.7,36.9,1,Publié,CBS (2022)
+2,Parfumeries et magasins de cosmétiques,ICI Paris XL,393,12.0,10.6,1,Estimé (prorata magasins 141/252),CBS (2022) + localisateur iciparisxl.nl
+3,Parfumeries et magasins de cosmétiques,Douglas,309,9.4,8.4,1,Estimé (prorata magasins 111/252),CBS (2022) + localisateur douglas.nl
+4,Supermarchés,,669,20.4,18.1,1,Publié,CBS (2022)
+5,Grands magasins,,231,7.1,6.2,1,Publié,CBS (2022)
+6,Coiffeurs et instituts de beauté,,108,3.3,2.9,1,Publié,CBS (2022)
+7,Autres canaux physiques,,199,6.1,5.4,1,Calculé (total - canaux listés),CBS (2022)
+8,Vente en ligne,,427,,11.5,0,Publié,CBS (2022)
