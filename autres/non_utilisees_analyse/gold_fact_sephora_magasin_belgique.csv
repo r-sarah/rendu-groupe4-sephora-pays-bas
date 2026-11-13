@@ -1,6 +1,0 @@
-magasin_be_id,enseigne_id,date_id,magasin,ville,statut,surface_m2,nb_magasins,source
-1,1,20260625,Docks Bruxsel,Bruxelles,Ouvert,270,1,RetailDetail
-2,1,20260709,City2,Bruxelles,Ouvert,,1,RetailDetail
-3,1,20260924,Médiacité,Liège,Ouvert,400,1,L'Express Franchise
-4,1,,Westland Shopping,Anderlecht,Annoncé,,1,RetailDetail
-5,1,,Esplanade,Louvain-la-Neuve,En projet,,1,L'Express Franchise

@@ -42,7 +42,6 @@ Cette branche contient la chaîne de traitement de la donnée, des fichiers brut
 │   ├── previsions/   prix_vente_nl.csv, marges_nl.csv, rentabilite_villes_nl.csv
 │   ├── silver/       tables nettoyées
 │   └── gold/         dimensions, tables de faits, vues/
-└── autres/           fichiers non utilisés par l'analyse
 ```
 
 Seules les tables qui servent à l'analyse (dashboard et KPI) sont dans `data/`.
