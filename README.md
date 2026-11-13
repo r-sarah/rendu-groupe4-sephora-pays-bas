@@ -1,6 +1,23 @@
-# # 💄 Stratégie d'Expansion Européenne 2027-2029 : Implantation de Sephora aux Pays-Bas
+# 💄 Stratégie d'Expansion Européenne 2027-2029 : Implantation de Sephora aux Pays-Bas
 
-> **Problématique Comex :** L'implantation de Sephora aux Pays-Bas est-elle réalisable et rentable ?
+> **Problématique Comex :** L'implantation de Sephora (maquillage) aux Pays-Bas est-elle réalisable et rentable ?
+>
+> **Réponse : NO-GO** pour un magasin 100 % maquillage en rue prime. **Réalisable : oui. Rentable : non** (0 combinaison ville × scénario rentable en 2029).
+
+---
+
+## Sommaire
+
+1. [Présentation de l'Entreprise & de l'Équipe](#1-présentation-de-lentreprise--de-léquipe)
+2. [Résultats & Décision](#2-résultats--décision)
+3. [Cadrage & KPIs](#3-cadrage--kpis)
+4. [Architecture des Données](#4-architecture-des-données)
+5. [Dictionnaire des Données (Couche Gold)](#5-dictionnaire-des-données-couche-gold)
+6. [Sources de Données](#6-sources-de-données)
+7. [Organisation du Dépôt](#7-organisation-du-dépôt)
+8. [Plan d'Organisation & Roadmap](#8-plan-dorganisation--roadmap)
+9. [Limites](#9-limites)
+10. [Stack Technique Utilisée](#10-stack-technique-utilisée)
 
 ---
 
@@ -8,162 +25,271 @@
 
 ### Périmètre d'activité
 
-- **Entreprise :** **Sephora** (Groupe LVMH), leader de la distribution sélective de produits de beauté en France.
+- **Entreprise :** **Sephora** (Groupe LVMH), leader de la distribution sélective de produits de beauté en France (**23 %** de part de marché de la beauté sélective en 2024, contre 14 % pour Nocibé).
 
-- **Réseau France :** **~300 magasins physiques** répartis sur le territoire français.
+- **Réseau France :** **~300 magasins physiques** et **2,68 Md€** de chiffre d'affaires (Sephora SAS, 2025).
 
-- **Périmètre Produit étudié :** Catégorie **Makeup (Maquillage)** uniquement (segments *Teint*, *Yeux*, *Lèvres*), analysée sur un échantillon stratégique de **30 références phares** (10 par segment) comparant les marques plébiscitées par la Gen Z (*Rare Beauty, Fenty Beauty, Milk Makeup, Sephora Collection*) aux marques classiques.
+- **Périmètre Produit étudié :** Catégorie **Makeup (Maquillage)** uniquement (segments *Teint*, *Yeux*, *Lèvres*), analysée sur un panel de **31 références** issues des best-sellers maquillage de `sephora.fr` (13 marques : marques tendance Gen Z / TikTok comme *Rhode, Rare Beauty, Fenty Beauty, Makeup by Mario, Haus Labs*, marques classiques et *Sephora Collection*).
 
 - **Pays Européen Ciblé :** **Pays-Bas**, avec un focus opérationnel sur les **4 pôles urbains majeurs de la Randstad** : *Amsterdam*, *Rotterdam*, *Utrecht* et *La Haye*.
 
 ### Contexte Historique & Thèse Stratégique (2013 vs 2027)
 
-- **Le constat de l'échec (2008-2013) :** Sephora avait tenté une première implantation aux Pays-Bas en 2008 (via des corners au sein des grands magasins V&D) avant de se retirer en 2013. À l'époque, l'enseigne proposait un catalogue de parfumerie classique identique à celui du duopole local (**Douglas** et **ICI PARIS XL**), entraînant une guerre des prix défavorable.
+- **Le constat de l'échec (2008-2013) :** Sephora avait tenté une première implantation aux Pays-Bas en 2008 (via des corners au sein des grands magasins V&D) avant de se retirer en 2013. À l'époque, l'enseigne proposait un catalogue de parfumerie classique identique à celui du duopole local (**Douglas** et **ICI PARIS XL**, filiale du groupe A.S. Watson), entraînant une guerre des prix défavorable.
 
-- **L'opportunité 2027-2029 :** Le marché de la beauté a basculé vers les marques virales Gen Z / TikTok (*Rare Beauty, Fenty Beauty, Milk Makeup, Sephora Collection*). Notre étude vise à vérifier empiriquement par les données si **l'exclusivité de ces références aux Pays-Bas** et leur forte **désirabilité** permettent aujourd'hui un retour rentable via un modèle omnicanal ciblé.
+- **L'opportunité 2027-2029 :** Le marché de la beauté a basculé vers les marques virales Gen Z / TikTok. Notre étude vérifie par les données si **l'exclusivité de ces références aux Pays-Bas** et leur forte **désirabilité** permettent aujourd'hui un retour rentable.
 
 ### Équipe Projet (Data Analytics)
 
-- **Ludivine Etou Apendi — Membre 1 :** Data Produits/Prix & Page 1 DataViz `feature/products-viz`)
-
-- **Ema Fernandes — Membre 2 :** Data Marché NL & Architecte Slides Comex `feature/market-slides`)
-
-- **Lamyaa Marzouq — Membre 3 :** Data Engineer — ETL, Modèle Étoile, Git & Brique IA `feature/etl-star-ai`)
-
-- **Sarah Ranganadane — Membre 4 :** Lead Documentation `README.md`) & Page 2 DataViz `feature/docs-dashboard`)
+| Membre | Rôle | Branches |
+| :--- | :--- | :--- |
+| **Ludivine Etou Apendi** — Membre 1 | Data Produits/Prix (scraping), marché NL, prévisions de rentabilité | `feature/scraping-pricing`, `feature/parts-de-marche-nl`, `feature/previsions` |
+| **Ema Fernandes** — Membre 2 | Data Marché NL (Google Trends, villes, concurrents), situation actuelle de Sephora & Slides Comex | `feature/market-slides` |
+| **Lamyaa Marzouq** — Membre 3 | Data Engineer : ETL, nettoyage (Silver), modèle en constellation (Gold), contrôles qualité | `feature/etl-star-ai` |
+| **Sarah Ranganadane** — Membre 4 | Lead Documentation (`README.md`) & DataViz | `readme` |
 
 ---
 
-## 2. Cadrage & Dictionnaire des Données
+## 2. Résultats & Décision
+
+| Axe | KPI | Valeur |
+| :--- | :--- | ---: |
+| Réalisable | Taille du marché du maquillage aux Pays-Bas (2024) | **515 M€** |
+| Réalisable | Croissance annuelle moyenne 2019-2024 | **+6,5 %/an** |
+| Réalisable | Part de marché Douglas + ICI Paris XL (magasins physiques) | **21,4 %** |
+| Réalisable | Indice de prix NL / France (produits partagés, base 100 = France) | **96,4** |
+| Réalisable | Part de produits en exclusivité vérifiée | **54,8 %** |
+| Réalisable | Évolution des recherches « sephora » aux Pays-Bas | **+46,3 %** |
+| Réalisable | Score de désirabilité : exclusifs / partagés | **72,0 / 56,3** |
+| Rentable | Marge brute moyenne par produit (scénario central) | **10,95 € (42,8 %)** |
+| Rentable | Combinaisons ville × scénario rentables en 2029 | **0 sur 12** |
+| Rentable | Meilleur résultat annuel 2029 (La Haye, optimiste) | **−231 005 €** |
+| Rentable | Part de marché minimale nécessaire au point mort | **8,7 %** |
+
+**Conclusion :** le marché, la demande et les exclusivités sont là (**réalisable**), mais le loyer en rue prime et le personnel rendent un magasin 100 % maquillage **non rentable** sur 2027-2029.
+
+**Recommandations :**
+
+1. **Changer de format :** pop-up ou magasin en centre commercial (loyer et équipe réduits).
+2. **Élargir l'offre :** ajouter le soin, mais pas le parfum (terrain fort de Douglas et ICI PARIS XL).
+3. **Combiner les deux** et recalculer le point mort avec ces nouveaux coûts.
+
+---
+
+## 3. Cadrage & KPIs
 
 ### Les 5 Axes Stratégiques & KPIs Retenus
 
-1. **Marché & Potentiel :** Taille globale du marché beauté/makeup aux Pays-Bas (€), taux de croissance annuel, part de marché de Sephora en France vs parts de marché de Douglas et ICI PARIS XL aux Pays-Bas.
+1. **Marché & Potentiel :** Taille du marché du maquillage aux Pays-Bas (€), taux de croissance annuel, part de marché de Sephora en France vs parts de marché de Douglas et ICI PARIS XL aux Pays-Bas.
 
-2. **Prix & Marges :** Indice Prix Relatif (*Sephora FR* vs *Douglas NL / ICI PARIS XL*) et **Marge Brute estimée post-TVA** (intégration de la TVA néerlandaise à **21 %** contre 20 % en France).
+2. **Prix & Marges :** Indice Prix Relatif (*Sephora FR* vs *Douglas NL / ICI PARIS XL*) et **Marge Brute estimée** (TVA néerlandaise à **21 %** contre 20 % en France), selon 3 scénarios (Pessimiste / Central / Optimiste).
 
-3. **Réseau & Implantation :** Densité des boutiques concurrentes et coût moyen au $m^2$ commercial dans les 4 villes de la Randstad.
+3. **Réseau & Implantation :** Densité des boutiques concurrentes et loyer prime au m² dans les 4 villes de la Randstad.
 
 4. **Opérations & Logistique :** Distance et coût de transport depuis l'entrepôt central Sephora France (Saran, près d'Orléans) vers les Pays-Bas (0 % de droits de douane au sein du marché unique européen).
 
-5. **Assortiment :** Taux de pénétration des sous-catégories Makeup (*Teint, Yeux, Lèvres*) et proportion du catalogue éligible en exclusivité vérifiée.
+5. **Assortiment :** Répartition des sous-catégories Makeup (*Teint, Yeux, Lèvres*) et proportion du catalogue en exclusivité vérifiée.
 
 ### KPI Propriétaire : Le « Score de Désirabilité »
 
-Afin d'éviter l'erreur de 2013, nous mesurons l'appétence réelle des consommateurs néerlandais avant implantation via un score composite sur 100 :
+Afin d'éviter l'erreur de 2013, nous mesurons l'appétence réelle des consommateurs néerlandais via un score composite sur 100 :
 
 $$\text{Score de Désirabilité} = (0.40 \times \text{Google Trends NL}) + (0.35 \times \text{Score Avis \& Notes FR}) + (0.25 \times \text{Bonus Exclusivité Vérifiée})$$
 
-### Dictionnaire des Données (Couche Gold)
-
-| Table | Champ | Type | Description & Règle de Gestion | Exemple |
-
-| :--- | :--- | :--- | :--- | :--- |
-
-| *`Dim_Product`** | `product_id` | `INT` (PK) | Identifiant unique de la référence Makeup | `101` |
-
-| *`Dim_Product`** | `product_name` | `STRING` | Nom commercial du produit | `Soft Pinch Liquid Blush` |
-
-| *`Dim_Product`** | `brand` | `STRING` | Marque du produit | `Rare Beauty` |
-
-| *`Dim_Product`** | `sub_category` | `STRING` | Segment Makeup `Teint`, `Yeux`, `Lèvres`) | `Teint` |
-
-| *`Dim_Product`** | `is_verified_exclusive` | `BOOLEAN` | `True` si absent chez [Douglas.nl](http://Douglas.nl) et ICI PARIS [XL.nl](http://XL.nl), `False` sinon | `True` |
-
-| *`Dim_City_NL`** | `city_id` | `INT` (PK) | Identifiant de la ville cible aux Pays-Bas | `1` |
-
-| *`Dim_City_NL`** | `city_name` | `STRING` | Nom du pôle urbain Randstad | `Amsterdam` |
-
-| *`Dim_City_NL`** | `avg_rent_m2_eur` | `FLOAT` | Loyer commercial annuel moyen au $m^2$ (€) | `1850.0` |
-
-| *`Dim_City_NL`** | `competitor_store_count` | `INT` | Nombre total de magasins Douglas + ICI PARIS XL dans la ville | `14` |
-
-| *`Dim_City_NL`** | `distance_hub_km` | `FLOAT` | Distance routière depuis le hub logistique Sephora de Saran (FR) | `575.0` |
-
-| *`Fact_Product_Pricing`** | `price_sephora_fr_ttc` | `FLOAT` | Prix de vente TTC relevé sur `sephora.fr` (€) | `28.00` |
-
-| *`Fact_Product_Pricing`** | `price_competitor_nl_ttc` | `FLOAT` | Prix moyen TTC relevé sur `douglas.nl` / `iciparisxl.nl` `NULL` si exclusif) | `29.50` |
-
-| *`Fact_Product_Pricing`** | `relative_price_index` | `FLOAT` | Ratio `(Prix NL / Prix FR) * 100` (base 100 = parité France) | `105.3` |
-
-| *`Fact_Product_Pricing`** | `gross_margin_post_vat_21` | `FLOAT` | Marge brute estimée après déduction de la TVA néerlandaise de 21 % (€) | `14.20` |
-
-| *`Fact_Product_Pricing`** | `desirability_score` | `FLOAT` | Score composite d'attractivité client aux Pays-Bas (0 à 100) | `88.5` |
-
-| *`Fact_City_Expansion`** | `market_size_nl_eur` | `FLOAT` | Taille estimée du marché Makeup adressable (€) | `420000000` |
-
-| *`Fact_City_Expansion`** | `logistics_cost_eur` | `FLOAT` | Coût d'acheminement annuel estimé depuis la France (€) | `85000` |
-
-| *`Fact_City_Expansion`** | `net_profit_projection_eur` | `FLOAT` | Résultat opérationnel prévisionnel par ville (€) | `310000` |
+- **Google Trends NL :** score de la marque (0-100, 100 = marque la plus recherchée).
+- **Score avis :** note sur 5 ramenée sur 100.
+- **Bonus exclusivité :** 100 si le produit est introuvable chez Douglas et ICI PARIS XL, sinon 0.
 
 ---
 
-## 3. Architecture & Choix des Sources
+## 4. Architecture des Données
 
-### Architecture Médaillon `Bronze` $\rightarrow$ `Silver` $\rightarrow$ `Gold`)
+### Architecture Médaillon (`Bronze` → `Silver` → `Gold`)
 
-1. **Bronze `/data/raw`) :** Ingestion des fichiers bruts `products_prices.csv`, `market_cities_nl.csv`).
+```text
+Bronze   data/raw/                 fichiers bruts collectés (scraping, Google Trends, CBS, localisateurs…)
+Silver   data/silver/              9 tables nettoyées
+Gold     data/gold/                7 dimensions + 8 tables de faits
+         data/gold/vues/           8 vues à plat pour Looker Studio (dont les KPI)
+```
 
-2. **Silver `/data/silver`) :** Nettoyage via Python (harmonisation des types, suppression des doublons, détection des valeurs aberrantes de prix via la méthode statistique **IQR**, normalisation des scores sur 100).
+1. **Bronze (`/data/raw`) :** Fichiers bruts : prix et produits, Google Trends NL, villes, magasins concurrents, marché et canaux, situation actuelle de Sephora.
 
-3. **Gold `/data/gold`) :** Modélisation dimensionnelle en **Schéma en Étoile à 2 Tables de Faits**.
+2. **Silver (`/data/silver`) :** Nettoyage en Python : noms de marques harmonisés entre Google Trends et les produits, doublons supprimés, symboles ® et ™ retirés, formats longs (1 ligne par observation), nombres stockés en nombres.
 
-### Justification du Modèle en Étoile à 2 Tables de Faits
+3. **Gold (`/data/gold`) :** Modélisation dimensionnelle en **schéma en constellation**.
 
-Plutôt que de mélanger des données produits et des données géographiques dans une seule table hybride (ce qui créerait des produits cartésiens artificiels et fausserait les agrégations), nous avons conçu **2 Tables de Faits au grain strict** reliées aux dimensions partagées `Dim_Product`, `Dim_City_NL`, `Dim_Competitor`, `Dim_Date`) :
+Tout le code de nettoyage et de modélisation est dans un seul fichier : `scripts/etl_nettoyage_modele_etoile.py`. Le détail des corrections est documenté dans [`docs/etl.md`](docs/etl.md).
 
-- *`Fact_Product_Pricing` (Grain : 1 ligne = 1 produit)** : Permet l'analyse fine des prix, marges post-TVA 21 % et scores de désirabilité par référence.
+### Justification du Modèle en Constellation
 
-- *`Fact_City_Expansion` (Grain : 1 ligne = 1 ville)** : Permet d'évaluer la rentabilité immobilière, logistique et concurrentielle par zone d'implantation.
+Plutôt que de mélanger des données produits et des données géographiques dans une seule table hybride (ce qui créerait des produits cartésiens artificiels et fausserait les agrégations), nous avons conçu **8 tables de faits au grain strict** qui partagent **7 dimensions**. Un filtre (scénario, ville, marque…) agit ainsi sur plusieurs tables de faits à la fois.
 
-### Sources de Données Retenues
+Deux règles :
 
-- **Relevé E-commerce Direct `sephora.fr`, `douglas.nl`, `iciparisxl.nl`) :** Collecte des prix TTC, notes clients, volumes d'avis et vérification de la disponibilité effective des 30 références Makeup aux Pays-Bas.
+- **un grain par table de faits** (un produit, une ville, une marque × une semaine…) ;
+- **jamais de croisement produit × ville** : produits et villes sont dans des tables de faits séparées, reliées par des dimensions partagées.
 
-- **Google Trends (Pays-Bas, 12 derniers mois) :** Mesure objective de l'intérêt de recherche des consommateurs néerlandais pour les marques ciblées.
+Un lien en flocon (`dim_produit → dim_marque`) évite de répéter les informations de la marque dans chaque produit.
 
-- **Open Data (CBS Statistics Netherlands / Eurostat) :** Démographie cible et taille du marché cosmétique aux Pays-Bas.
+```mermaid
+erDiagram
+    dim_marque ||--o{ dim_produit : "marque_id"
+    dim_produit ||--|| fact_prix_produit : "produit_id"
+    dim_marque ||--o{ fact_prix_produit : "marque_id"
+    dim_produit ||--o{ fact_marge_produit : "produit_id"
+    dim_scenario ||--o{ fact_marge_produit : "scenario_id"
+    dim_marque ||--o{ fact_recherche_google : "marque_id"
+    dim_date ||--o{ fact_recherche_google : "date_id"
+    dim_ville ||--|| fact_ville : "ville_id"
+    dim_enseigne ||--o{ fact_magasin_concurrent : "enseigne_id"
+    dim_ville ||--o{ fact_magasin_concurrent : "ville_id"
+    dim_ville ||--o{ fact_rentabilite : "ville_id"
+    dim_scenario ||--o{ fact_rentabilite : "scenario_id"
+    dim_date ||--o{ fact_rentabilite : "date_id"
+    dim_date ||--o{ fact_marche : "date_id"
+    dim_canal ||--o{ fact_canal : "canal_id"
+    dim_enseigne ||--o{ fact_canal : "enseigne_id"
+```
 
-- **NOS & Cushman & Wakefield :** Sources de référence pour l'analyse du marché immobilier commercial et l'estimation des loyers au $m^2$ dans les artères commerçantes de la Randstad.
+### Contrôles Qualité
 
-- **Google Maps :** Géolocalisation et comptage des points de vente concurrents (Douglas et ICI PARIS XL) par ville, ainsi que le calcul des distances routières depuis l'entrepôt logistique Sephora de Saran (France).
+**62 contrôles**, exécutés à chaque lancement du script, tous OK :
+
+- **Silver (20) :** unicité des clés, aucune note manquante, exclusivité cohérente avec l'absence de prix NL, 53 semaines × 8 marques dans Google Trends, parts de marché à 100 %, prévisions reliées aux produits et aux villes.
+- **Gold (42) :** clés uniques des 7 dimensions, aucune clé orpheline entre faits et dimensions, grain unique des 8 tables de faits, cohérence des calculs (résultat, marge, indice de prix, score entre 0 et 100).
 
 ---
 
-## 4. Plan d'Organisation & Roadmap
+## 5. Dictionnaire des Données (Couche Gold)
+
+### 7 Dimensions
+
+| Table | Clé | Lignes | Contenu |
+| :--- | :--- | ---: | :--- |
+| `dim_produit` | `produit_id` | 31 | Nom, marque, sous-catégorie (Teint, Yeux, Lèvres), type, rang sephora.fr, exclusif / partagé, LVMH, format mini |
+| `dim_marque` | `marque_id` | 13 | Marque, groupe (LVMH, marque tendance, marque classique, marque maison Sephora), score Google Trends |
+| `dim_ville` | `ville_id` | 4 | Ville, nom reconnu par les cartes, rue de référence du loyer |
+| `dim_date` | `date_id` (AAAAMMJJ) | 62 | Date, année, trimestre, mois, semaine ISO |
+| `dim_scenario` | `scenario_id` | 3 | Pessimiste / Central / Optimiste et leurs hypothèses (part de marché visée, marge, effectif, charges, transport, surface, salaire) |
+| `dim_enseigne` | `enseigne_id` | 4 | Sephora, Douglas, ICI Paris XL, De Bijenkorf |
+| `dim_canal` | `canal_id` | 7 | Canal de distribution, magasin physique ou non |
+
+### 8 Tables de Faits
+
+| Table | Grain | Lignes | Mesures principales |
+| :--- | :--- | ---: | :--- |
+| `fact_prix_produit` | 1 produit | 31 | Prix FR TTC/HT, prix Douglas et ICI Paris XL, indice de prix NL/FR, note, avis, score de désirabilité |
+| `fact_marge_produit` | 1 produit × 1 scénario | 93 | Coût d'achat, marge brute (€), taux de marge (%) |
+| `fact_recherche_google` | 1 marque × 1 semaine | 424 | Score Google Trends, semaine du pic |
+| `fact_ville` | 1 ville | 4 | Population, marché local du maquillage, concurrents, loyers, distances |
+| `fact_magasin_concurrent` | 1 magasin | 130 | Enseigne, ville, GPS, ville cible ou non |
+| `fact_rentabilite` | 1 ville × 1 scénario × 1 année | 36 | CA, marge, loyer, personnel, transport, résultat annuel et cumulé, point mort |
+| `fact_marche` | 1 année × 1 périmètre | 8 | Taille du marché (M€), croissance annuelle |
+| `fact_canal` | 1 canal × 1 enseigne | 8 | Ventes (M€), parts de marché |
+
+### 8 Vues pour le Dashboard (Looker Studio)
+
+| Vue | Sert à |
+| :--- | :--- |
+| `vue_kpi` | Cartes de KPI (13 KPI calculés) |
+| `vue_parts_de_marche` | Camembert des parts de marché |
+| `vue_magasins_concurrents` | Concurrents par ville, carte |
+| `vue_villes` | Comparaison des 4 villes |
+| `vue_produits` | Prix, indice de prix, exclusivités, désirabilité |
+| `vue_recherches_google` | Courbes de recherche Google |
+| `vue_rentabilite` | Rentabilité par ville et par scénario |
+| `vue_marges` | Marges par produit |
+
+### Principaux Calculs
+
+```text
+indice_prix_nl_fr_ttc  = prix concurrent NL minimum TTC / prix Sephora FR TTC × 100   (produits partagés)
+loyer_annuel_eur       = loyer prime au m² × 270 m²
+resultat_annuel_eur    = marge brute − loyer − personnel − transport
+```
+
+---
+
+## 6. Sources de Données
+
+| Donnée | Source |
+| :--- | :--- |
+| Prix, notes, avis, exclusivité | Relevés `sephora.fr`, `douglas.nl`, `iciparisxl.nl` (scripts de collecte, 12/11/2026) |
+| Recherches | Google Trends Pays-Bas, 01/11/2025 – 12/11/2026 |
+| Population des villes | CBS StatLine (1er janvier 2026) |
+| Loyers prime | NOS (Amsterdam, Rotterdam, Utrecht) ; Cushman & Wakefield (La Haye) |
+| Magasins concurrents | Localisateurs `douglas.nl` (111 magasins) et `iciparisxl.nl` (19 magasins dans les villes cibles) |
+| Distances | Google Maps depuis l'entrepôt Sephora de Saran |
+| Marché et canaux | NCV via Beauty-Pro.nl (détail dans `docs/marche/`) |
+| Situation actuelle de Sephora | LSA / Joko (parts de marché), Xerfi et Pappers (chiffre d'affaires), LVMH (résultats annuels) — détail dans `data/raw/sephora/sephora_situation_actuelle.csv` |
+
+Chaque fichier brut indique sa source ; les sources du Membre 2 sont détaillées dans `data/raw/SOURCES_MEMBRE2.md`.
+
+---
+
+## 7. Organisation du Dépôt
+
+```text
+├── README.md                       ce fichier
+├── data/
+│   ├── raw/                        Bronze : fichiers bruts (produits, Trends, villes, concurrents, marché, Sephora)
+│   ├── previsions/                 prix de vente, marges et rentabilité prévisionnels 2027-2029
+│   ├── silver/                     9 tables nettoyées
+│   └── gold/                       7 dimensions, 8 tables de faits
+│       └── vues/                   8 vues pour Looker Studio
+├── scripts/
+│   ├── collecte/                   scraping sephora.fr et enrichissement des produits
+│   └── etl_nettoyage_modele_etoile.py   nettoyage, modèle et contrôles qualité
+└── docs/
+    ├── etl.md                      documentation détaillée du nettoyage et du modèle
+    ├── marche/                     étude des parts de marché Douglas / ICI Paris XL
+    └── previsions/                 hypothèses des marges et de la rentabilité
+```
+
+---
+
+## 8. Plan d'Organisation & Roadmap
 
 ### Méthodologie de Travail
 
-Nous appliquons le cycle **PACE** (*Plan, Analyze, Construct, Execute*) couplé à un workflow **Git Feature Branch** : chaque membre développe sur sa branche dédiée `feature/`*), puis fusionne sur `develop` pour validation avant mise en production sur `main`.
+Nous appliquons le cycle **PACE** (*Plan, Analyze, Construct, Execute*) couplé à un workflow **Git Feature Branch** : chaque membre développe sur sa branche dédiée (`feature/*`), puis fusionne sur `main` par pull request.
 
 ### Roadmap d'Exécution
 
-- **Phase 1 — Plan & Cadrage :** Définition des 5W, sélection des 30 produits Makeup et des 4 villes Randstad, initialisation du dépôt Git.
+- **Phase 1 — Plan & Cadrage :** Définition des 5W, sélection des produits Makeup et des 4 villes Randstad, initialisation du dépôt Git.
 
-- **Phase 2 — Collecte & Nettoyage (Bronze $\rightarrow$ Silver) :** Extraction des données prix/concurrence, Google Trends NL, Open Data villes/marché et rédaction du dictionnaire de données.
+- **Phase 2 — Collecte & Nettoyage (Bronze → Silver) :** Scraping des prix et de la concurrence, Google Trends NL, données villes et marché, situation actuelle de Sephora.
 
-- **Phase 3 — Modélisation Gold, DataViz & Brique IA :** Génération des 2 Tables de Faits et 4 Dimensions, création du Dashboard décisionnel (2 pages) et exécution du script IA de synthèse Comex.
+- **Phase 3 — Modélisation Gold & DataViz :** Génération des 7 dimensions, 8 tables de faits et 8 vues, création du dashboard décisionnel dans Looker Studio.
 
 - **Phase 4 — Arbitrage & Restitution Comex :** Synthèse stratégique Go/No-Go et soutenance orale de 10 minutes.
 
 ### Next Steps (Recommandations Post-Étude)
 
-1. **Phase Pilote (T1-T2 2027) :** Lancement du site e-commerce `sephora.nl` expédié depuis la France pour valider les taux de conversion réels par code postal néerlandais avant tout bail commercial.
-
-2. **Ouverture Flagships Ciblés (T3 2027 – 2028) :** Ouverture prioritaire de **2 à 3 magasins étendards** dans les artères à plus fort trafic de la Randstad (*Kalverstraat* à Amsterdam, *Koopgoot* à Rotterdam, *Hoog Catharijne* à Utrecht) avec un assortiment concentré à **75 % sur les marques exclusives à fort Score de Désirabilité**.
-
-3. **Industrialisation Data :** Automatisation hebdomadaire du scraping des prix concurrents et suivi du taux de rachat client via le programme de fidélité Sephora.
+1. **Chiffrer un format plus léger en 2027 :** pop-up ou magasin en centre commercial, avec un loyer et une équipe réduits.
+2. **Tester une offre maquillage + soin :** vérifier si l'ajout du soin permet d'atteindre le point mort.
+3. **Recalculer la rentabilité** avec ces nouveaux coûts et ce nouveau chiffre d'affaires avant toute décision d'ouverture.
 
 ---
 
-## 5. Stack Technique Utilisée
+## 9. Limites
 
-- **Collecte & Exploration :** Google Trends, Open Data CBS/Eurostat, Cushman & Wakefield, NOS, Google Maps, relevés web structurés (CSV).
+- **Loyers :** loyer de la rue la plus chère (« prime »), pas un loyer moyen ; sources de dates différentes.
+- **Google Trends :** scores relatifs (0-100 dans une même requête), pas des volumes de recherche.
+- **Score de désirabilité :** calculé pour 16 produits sur 31 ; les marques non suivies dans Google Trends n'ont pas de score (aucune valeur inventée).
+- **Couverture des magasins :** Douglas sur tout le pays, ICI Paris XL sur les 4 villes cibles seulement.
+- **Parts de marché par canal :** année 2020 (dernière répartition publiée) ; parts Douglas et ICI Paris XL estimées.
+- **Part de marché de Sephora en France :** estimation issue d'un panel d'achats de consommateurs.
 
-- **ETL, Nettoyage & Modélisation :** Python `pandas`, `numpy`) — architecture Médaillon `Bronze` / `Silver` / `Gold`).
+---
 
-- **Intelligence Artificielle Générative :** Python + API LLM (génération automatisée d'un mémo exécutif comparant les scénarios d'implantation pour le Comex).
+## 10. Stack Technique Utilisée
 
-- **Data Visualisation :** Power BI / Looker Studio (Dashboard décisionnel interactif en 2 pages).
+- **Collecte & Exploration :** Python (scraping), Google Trends, CBS StatLine, NOS, Cushman & Wakefield, Google Maps, localisateurs de magasins.
 
-- **Versioning & Collaboration :** Git & GitHub (stratégie de branches `main`, `develop`, `feature/`*).
+- **ETL, Nettoyage & Modélisation :** Python (`pandas`) — architecture Médaillon (`Bronze` / `Silver` / `Gold`), 62 contrôles qualité.
+
+- **Data Visualisation :** Google Sheets + Looker Studio (dashboard décisionnel interactif).
+
+- **Versioning & Collaboration :** Git & GitHub (branches `feature/*`, pull requests vers `main`).
