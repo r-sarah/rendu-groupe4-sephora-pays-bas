@@ -1,0 +1,6 @@
+magasin,ville,pays,statut,date_ouverture,surface_m2,source,url,fiabilite,commentaire
+Docks Bruxsel,Bruxelles,Belgique,Ouvert,2026-06-25,270,RetailDetail,https://www.retaildetail.eu/?p=45706,bonne,"1er magasin belge, environ 270 m², environ 90 marques"
+City2,Bruxelles,Belgique,Ouvert,2026-07-09,,RetailDetail,https://www.retaildetail.eu/?p=45706,bonne,2e magasin belge
+Médiacité,Liège,Belgique,Ouvert,2026-09-24,400,L'Express Franchise,https://lexpress-franchise.com/fr-be/actualites/sephora-ouverture-liege-mediacite/,bonne,1er magasin en Wallonie ; plus grande boutique belge
+Westland Shopping,Anderlecht,Belgique,Annoncé,,,RetailDetail,https://www.retaildetail.eu/?p=45706,bonne,4e magasin annoncé
+Esplanade,Louvain-la-Neuve,Belgique,En projet,,,L'Express Franchise,https://lexpress-franchise.com/fr-be/actualites/sephora-louvain-la-neuve-esplanade/,moyenne,Non confirmé officiellement

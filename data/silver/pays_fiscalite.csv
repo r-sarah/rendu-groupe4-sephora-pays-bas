@@ -1,0 +1,3 @@
+country_code,pays,role,tva_cosmetiques_pct,droits_douane_pct,devise,union_douaniere_ue,reglementation_cosmetique,catalogue_france_eligible_pct,source_tva,source_douane,source_reglementation,date_verification
+FR,France,Pays d'origine (réseau existant),20,0,EUR,1,Règlement (CE) n° 1223/2009,100,Commission européenne – Your Europe « VAT rules and rates »,Commission européenne – Union douanière de l'UE,EUR-Lex – Règlement (CE) n° 1223/2009,2026-11-13
+NL,Pays-Bas,Pays cible,21,0,EUR,1,Règlement (CE) n° 1223/2009,100,Commission européenne – Your Europe « VAT rules and rates »,Commission européenne – Union douanière de l'UE,EUR-Lex – Règlement (CE) n° 1223/2009,2026-11-13
