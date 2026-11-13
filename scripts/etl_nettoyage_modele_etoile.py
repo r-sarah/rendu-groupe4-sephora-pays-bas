@@ -188,7 +188,7 @@ def villes():
     df.insert(df.columns.get_loc("nb_concurrents_total") + 1, "nb_douglas_ici",
               df.nb_douglas + df.nb_ici_paris_xl)
     log("villes", "ajout de nb_douglas_ici (sans De Bijenkorf), comparable à magasins_concurrents")
-    log("villes", "4 colonnes de texte (sources, commentaire) retirées : documentées dans le README")
+    log("villes", "4 colonnes de texte (sources, commentaire) retirées : documentées dans docs/etl.md")
     log("villes", "durée de trajet convertie en minutes ; distance Bruxelles signalée comme estimation")
     log("villes", "nom « 15_44 » conservé : les données CBS portent bien sur les 15-44 ans")
     return df
