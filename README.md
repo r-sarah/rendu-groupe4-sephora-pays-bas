@@ -36,11 +36,11 @@
 
 ## 0. Liens Utiles
 
-- **Présentation Comex (Slides) :** [https://drive.google.com/file/d/1TfmOHh7LE4O_NbHXBt0oaorWcPC0q3Fg/view?usp=drive_link]
+- **Présentation Comex (Slides) :** https://drive.google.com/file/d/1TfmOHh7LE4O_NbHXBt0oaorWcPC0q3Fg/view?usp=drive_link
 
-- **Dashboard Décisionnel (Looker Studio) :** [Accéder au rapport Looker Studio]([https://datastudio.google.com/reporting/2d9636c3-64c4-4e9f-badd-b18e6e0c38f8](https://datastudio.google.com/reporting/2d9636c3-64c4-4e9f-badd-b18e6e0c38f8))
+- **Dashboard Décisionnel (Looker Studio) :** https://datastudio.google.com/reporting/2d9636c3-64c4-4e9f-badd-b18e6e0c38f8
 
-- **Données sources du dashboard (Google Sheets) :** [Accéder au Google Sheet]([https://docs.google.com/spreadsheets/d/10e3I6Memn1yEiwTryq4xwlqv1FKjsGyOFiKASAMMSOA/edit?usp=drive_link](https://docs.google.com/spreadsheets/d/10e3I6Memn1yEiwTryq4xwlqv1FKjsGyOFiKASAMMSOA/edit?usp=drive_link))
+- **Données sources du dashboard (Google Sheets) :** https://docs.google.com/spreadsheets/d/10e3I6Memn1yEiwTryq4xwlqv1FKjsGyOFiKASAMMSOA/edit?usp=drive_link
 
 ---
 
