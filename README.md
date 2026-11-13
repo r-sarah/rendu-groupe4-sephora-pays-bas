@@ -258,7 +258,7 @@ Exécutés à chaque lancement : **62 contrôles, tous OK**.
 | Prix, notes, avis | sephora.fr, douglas.nl, iciparisxl.nl (relevés le 12/11/2026) |
 | Recherches | Google Trends NL, 01/11/2025 – 12/11/2026 (`rhode` en marque Google pour exclure « Rhode Island ») |
 | Population des villes | CBS StatLine 03759ned (1er janvier 2026) |
-| Loyers prime | NOS, classement des rues les plus chères (Amsterdam, Rotterdam, Utrecht — année à vérifier) ; Cushman & Wakefield nov. 2025 (La Haye) |
+| Loyers prime | NOS, classement des rues les plus chères (Amsterdam, Rotterdam, Utrecht) ; Cushman & Wakefield nov. 2025 (La Haye) |
 | Magasins concurrents | Localisateurs douglas.nl et iciparisxl.nl (12/11/2026) |
 | Distances | Google Maps depuis l'entrepôt de Saran (12/11/2026) ; Bruxelles : estimation |
 | Marché et canaux | NCV via Beauty-Pro.nl et sources détaillées dans `raw/marche/` |
